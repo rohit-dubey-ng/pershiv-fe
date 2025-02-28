@@ -15,9 +15,8 @@ const DefaulHeader = () => {
   };
 
   const handleDownload = () => {
-
     const link = document.createElement("a");
-    link.href = "http://localhost:3000/b.pdf" // Path inside the public folder
+    link.href = "https://pershiv-fe.netlify.app/b.pdf"; // Path inside the public folder
     link.download = "Broucher.pdf"; // Rename file (optional)
     document.body.appendChild(link);
     link.click();
@@ -30,8 +29,6 @@ const DefaulHeader = () => {
       window.removeEventListener("scroll", changeBackground);
     };
   }, []);
-
-
 
   return (
     <header
@@ -53,8 +50,12 @@ const DefaulHeader = () => {
             </Link>
           </div>
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
-          <button
-              className="btn-twentyTwo fw-500 btn-sm px-3 py-3 lh-1 fs-14 me-sm-3" onClick={handleDownload} >Download Broucher</button>
+            <button
+              className="btn-twentyTwo fw-500 btn-sm px-3 py-3 lh-1 fs-14 me-sm-3"
+              onClick={handleDownload}
+            >
+              Download Broucher
+            </button>
           </div>{" "}
           {/* /.right-widget */}
           <MainMenu />

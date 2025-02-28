@@ -4,8 +4,23 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: "",
+    contact: "",
+    category: "",
   });
+
+  const bookService = (values) => {
+    console.log(values);
+    const { name, email, contact, category } = values;
+
+    const message = encodeURIComponent(
+      `Hello,\nI want to book a appointment.\nName: ${name}\n Email: ${email}\n Phone: ${contact}\n Make & Model: ${category}.`
+    );
+
+    const whatsappURL = `https://wa.me/${1234567891}?text=${message}`;
+
+    // Open in a new tab
+    window.open(whatsappURL, "_blank");
+  };
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -18,6 +33,7 @@ const ContactForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(formData);
+    bookService(formData);
     // You can add your form submission logic here
   };
 
@@ -61,7 +77,7 @@ const ContactForm = () => {
               type="contact"
               placeholder="Mobile no*"
               name="contact"
-              value={formData.email}
+              value={formData.contact}
               onChange={handleChange}
               required
             />
@@ -73,16 +89,12 @@ const ContactForm = () => {
         <div className="contact-direction">
           <p>Call & Direction</p>
           <div className="call-address">
-             <div className="call">
-            <a href="+919377780098" className="phone"><i class="fa-solid fa-phone"></i></a> 
-            <a href="#"> +919377780098 </a>
-            </div>
-
-            <div className="address">
-           <a href="#" className="location"><i class="fa-solid fa-location-dot" ></i></a>
-           <a href="#"> Pershiv Alu Systems - 22-23, first floor, Mangaldas Shopping Centre, Navjivan Circle U.M Road, Surat - 395017.
-           </a>
-           </div>
+            <a href="#">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-location-dot"></i>
+            </a>
           </div>
         </div>
 
@@ -96,6 +108,7 @@ const ContactForm = () => {
                 name="category"
                 id="b2b"
                 value="B2B"
+                onChange={handleChange}
               />
               <label className="form-check-label" for="b2b">
                 {" "}
@@ -109,6 +122,7 @@ const ContactForm = () => {
                 name="category"
                 id="b2c"
                 value="B2C"
+                onChange={handleChange}
               />
               <label className="form-check-label" for="b2c">
                 {" "}
@@ -122,6 +136,7 @@ const ContactForm = () => {
                 name="category"
                 id="interiorDesigner"
                 value="Interior Designer"
+                onChange={handleChange}
               />
               <label className="form-check-label" for="interiorDesigner">
                 {" "}
@@ -135,6 +150,7 @@ const ContactForm = () => {
                 name="category"
                 id="architect"
                 value="Architect"
+                onChange={handleChange}
               />
               <label className="form-check-label" for="architect">
                 {" "}
