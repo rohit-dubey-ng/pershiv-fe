@@ -16,7 +16,7 @@ const ContactForm = () => {
       `Hello,\nI want to book a appointment.\nName: ${name}\n Email: ${email}\n Phone: ${contact}\n Make & Model: ${category}.`
     );
 
-    const whatsappURL = `https://wa.me/${1234567891}?text=${message}`;
+    const whatsappURL = `https://wa.me/${9377780098}?text=${message}`;
 
     // Open in a new tab
     window.open(whatsappURL, "_blank");
