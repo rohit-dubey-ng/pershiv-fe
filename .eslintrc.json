@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "next/core-web-vitals",   // Keep Next.js default web vitals rules
+    "eslint:recommended",      // ESLint recommended rules
+    "plugin:react/recommended" // React specific linting rules
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",  // Disable the rule that expects React in scope with JSX
+    "react/jsx-uses-react": "off",     // Disable the React 17+ no longer needing React in scope rule
+    "react/jsx-uses-vars": "warn"      // Warn on unused variables in JSX
+  },
+  "settings": {
+    "react": {
+      "version": "detect"  // Automatically detect the version of React
+    }
+  }
+}
