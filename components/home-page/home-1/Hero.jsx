@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import image1 from "../../../public/images/assets/window1.jpg";
-import image2 from "../../../public/images/assets/window2.jpg";
-import image3 from "../../../public/images/assets/window3.jpg";
+import image1 from "images/assets/window1.jpg";
+import image2 from "images/assets/window2.jpg";
+import image3 from "images/assets/window3.jpg";
 
 const Hero1 = () => {
   const options = [
