@@ -11,6 +11,16 @@ select:focus {
     outline: none;
 }
 
+
+.slick-slider .slick-arrow.slick-next {
+    display: none !important;
+}
+.slick-slider .slick-arrow.slick-prev {
+    display: none !important;
+}
+
+
+
 select option {
     font-size: 15px;
 }

@@ -17,7 +17,7 @@
 ====================================================================
 
  ***/
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 5px;
 }
 
@@ -7044,6 +7044,14 @@ body .btn-twentyFive:hover {
   transform: scale(1);
 }
 
+.feedback-section-seven .slick-slider .slick-arrow.slick-next {
+  display: none !important;
+}
+.feedback-section-seven .slick-slider .slick-arrow.slick-prev {
+  display: none !important;
+}
+
+
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Twenty Nine ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-twentyNine .shape-one {
   width: 24px;
@@ -8344,6 +8352,15 @@ body .btn-twentyFive:hover {
 .feedback-section-thirteen .slick-dots {
   display: none !important;
 }
+
+.feedback_slider_seven .slick-slider .slick-arrow.slick-next {
+  display: none !important;
+}
+
+.feedback_slider_seven .slick-slider .slick-arrow.slick-prev {
+  display: none !important;
+}
+
 
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Thirty Eight ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .block-style-seven .list-item li {
@@ -12099,7 +12116,7 @@ ul.slick-dots {
       font-weight: 500;
     }
 
-    p{
+    p {
       max-width: 620px;
       width: 100%;
     }
@@ -12325,19 +12342,22 @@ div#heroSectionSlider {
   }
 }
 
-.contact-direction  {
-  P{
+.contact-direction {
+  P {
     margin: 0;
   }
-    
+
 }
+
 .call-address {
+
   // display: flex;
   // align-items: center;
   // gap: 25px;
-  p{
+  p {
     margin-bottom: 10px;
   }
+
   a {
     i {
       font-size: 18px;
@@ -12346,20 +12366,20 @@ div#heroSectionSlider {
 }
 
 .call {
-    margin-top: 6px;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .phone {
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #51658d;
     display: flex;
     align-items: center;
-    gap: 20px;
-
-    .phone {
-      max-width: 40px;
-      width: 100%;
-      height: 40px;
-      border: 1px solid #51658d;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50px;
+    justify-content: center;
+    border-radius: 50px;
   }
 
 }
@@ -12373,7 +12393,7 @@ div#heroSectionSlider {
   margin-top: 16px;
   margin-bottom: 12px;
 
-.location {
+  .location {
     max-width: 40px;
     width: 100%;
     height: 40px;
@@ -12383,16 +12403,16 @@ div#heroSectionSlider {
     justify-content: center;
     border-radius: 50px;
 
-  // :hover{
-  //   color:#51658d;
-  //   border:1px solid #000;
-  // }
-}
+    // :hover{
+    //   color:#51658d;
+    //   border:1px solid #000;
+    // }
+  }
 
 
-a{
-  font-size: 14px;
-}
+  a {
+    font-size: 14px;
+  }
 
 }
 
@@ -12699,6 +12719,11 @@ li .nav_datalist {
     font-size: 24px;
   }
 
+  .feedback_slider_seven .item {
+    margin: 12px auto 0 auto;
+    padding: 0 12px;
+  }
+
   .main-page-wrapper .banner-text p {
     margin: 0;
     font-size: 16px;
@@ -12710,58 +12735,58 @@ li .nav_datalist {
 
   .right-widget {
     margin-right: auto;
-}
+  }
 
-.call-address {
- 
+  .call-address {
 
-  a {
-    i {
-      font-size: 16px;
+
+    a {
+      i {
+        font-size: 16px;
+      }
     }
   }
-}
 
-.call {
- 
-  .phone {
-    max-width: 30px;
-    width: 100%;
-    height: 30px;
-    border: 1px solid #51658d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-}
+  .call {
 
-}
+    .phone {
+      max-width: 30px;
+      width: 100%;
+      height: 30px;
+      border: 1px solid #51658d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+    }
 
-.address {
+  }
 
-
-.location {
-  max-width: 30px;
-  width: 100%;
-  height: 30px;
-  border: 1px solid #51658d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-
-// :hover{
-//   color:#51658d;
-//   border:1px solid #000;
-// }
-}
+  .address {
 
 
-a{
-font-size: 14px;
-}
+    .location {
+      max-width: 30px;
+      width: 100%;
+      height: 30px;
+      border: 1px solid #51658d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
 
-}
+      // :hover{
+      //   color:#51658d;
+      //   border:1px solid #000;
+      // }
+    }
+
+
+    a {
+      font-size: 14px;
+    }
+
+  }
 
 }
 
@@ -12769,9 +12794,10 @@ font-size: 14px;
   #heroSectionSlider .carousel-item img {
     height: 50vh;
   }
-.btn-twentyTwo {
+
+  .btn-twentyTwo {
     font-size: 12px;
-}
+  }
 
 
 }
