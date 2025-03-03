@@ -9,7 +9,7 @@ const CustomerComplaint = () => {
       <Seo pageTitle="Customer Complaint" />
       <DefaulHeader />
       <div className="fancy-feature-thirtyEight mt-140 lg-mt-100 position-relative  pb-70 lg-mt-120 lg-pt-70 lg-pb-50">
-        <div className="container">
+        <div className="container-fluid">
           <div className="container">
             <div className="title-style-one text-center mb-50 lg-mb-20">
               <h2 className="main-title fw-500 tx-dark m0">Contact US</h2>
@@ -19,10 +19,10 @@ const CustomerComplaint = () => {
             className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
             data-aos="fade-up"
           >
-            <div className="container">
+            <div className="container p-0">
               <div className="bg-wrapper zn2 bg-white position-relative">
                 <div className="row">
-                  <div className="col-xl-11">
+                  <div className="col-xl-12">
                     <div className="row align-items-center">
                       <div className="col-lg-6  order-lg-first">
                         <div className="text-wrapper">

@@ -40,11 +40,11 @@ const MainMenu = () => {
             <div className="logo">
               <Link href="/" className="d-block">
                 <img
-                  src="https://d21xn5q7qjmco5.cloudfront.net/images/logo/1612952677.webp"
+                  src="/images/assets/logo.png"
                   alt=""
-                  width={95}
+                  width={100}
                 />{" "}
-                as
+                
               </Link>
             </div>
           </li>

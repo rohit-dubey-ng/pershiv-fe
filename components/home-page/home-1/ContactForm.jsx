@@ -40,7 +40,7 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="messages" />
-      <div className="row controls">
+      <div className="row controls align-items-center justify-content-center w-100">
         <div className="col-12">
           <div className="input-group-meta form-group mb-20">
             <input
@@ -89,12 +89,16 @@ const ContactForm = () => {
         <div className="contact-direction">
           <p>Call & Direction</p>
           <div className="call-address">
-            <a href="#">
-              <i class="fa-solid fa-phone"></i>
-            </a>
-            <a href="#">
-              <i class="fa-solid fa-location-dot"></i>
-            </a>
+             <div className="call">
+            <a href="+919377780098" className="phone"><i class="fa-solid fa-phone"></i></a> 
+            <a href="#"> +919377780098 </a>
+            </div>
+
+            <div className="address">
+           <a href="#" className="location"><i class="fa-solid fa-location-dot" ></i></a>
+           <a href="#"> Pershiv Alu Systems - 22-23, first floor, Mangaldas Shopping Centre, Navjivan Circle U.M Road, Surat - 395017.
+           </a>
+           </div>
           </div>
         </div>
 
