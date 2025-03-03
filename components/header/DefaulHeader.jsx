@@ -16,8 +16,8 @@ const DefaulHeader = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "https://pershiv-fe.netlify.app/b.pdf"; // Path inside the public folder
-    link.download = "Broucher.pdf"; // Rename file (optional)
+    link.href = "https://pershiv-fe.vercel/b.pdf"; // Path inside the public folder
+    link.download = "Barucher.pdf"; // Rename file (optional)
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
