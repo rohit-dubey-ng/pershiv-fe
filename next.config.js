@@ -4,12 +4,7 @@ const nextConfig = {
     ignoreDuringBuilds: true, // Disables ESLint during production builds
   },
   images: {
-    localPatterns: [
-      {
-        pathname: "/images/assets/**",
-        search: "",
-      },
-    ],
+    domains: ["pershiv-fe.netlify.app"], // Add the domains you need to fetch images from
   },
 };
 
