@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import image1 from "../../../public/images/assets/window (1).jpg";
+import image1 from "/public/images/assets/window1.jpg";
 import image2 from "../../../public/images/assets/window (2).jpg";
 import image3 from "../../../public/images/assets/window (3).jpg";
 
@@ -32,7 +32,6 @@ const Hero1 = () => {
 
   return (
     <div className="m position-relative zn2 mt-md-5">
-
       <div id="heroSectionSlider" className="carousel slide">
         <div className="carousel-indicators">
           <button
@@ -72,9 +71,14 @@ const Hero1 = () => {
 
                     <div>
                       <div className="d-flex flex-column flex-sm-row  align-items-sm-center justify-content-center justify-content-sm-center mt-4 mt-sm-0">
-                        <button type="button" class="btn-lg read-more-btn btn-twentyTwo"> Read More </button>
+                        <button
+                          type="button"
+                          class="btn-lg read-more-btn btn-twentyTwo"
+                        >
+                          {" "}
+                          Read More{" "}
+                        </button>
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -82,7 +86,11 @@ const Hero1 = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <Image src={image2} className="d-block w-100" alt="..." />
+            <Image
+              src="/public/images/assets/window1.jpg"
+              className="d-block w-100"
+              alt="..."
+            />
             <div className="banner-text">
               <div className="container">
                 <div className="row">
@@ -91,14 +99,19 @@ const Hero1 = () => {
                     data-aos="fade-up"
                   >
                     <h1 className="hero-heading fw-500 fs-md-3">
-                    Tailored for you. Built to Last. 
+                      Tailored for you. Built to Last.
                     </h1>
 
                     <div>
                       <div className="d-flex flex-column flex-sm-row  align-items-sm-center justify-content-center justify-content-sm-center mt-4 mt-sm-0">
-                        <button type="button" class="btn-lg read-more-btn btn-twentyTwo"> Read More </button>
+                        <button
+                          type="button"
+                          class="btn-lg read-more-btn btn-twentyTwo"
+                        >
+                          {" "}
+                          Read More{" "}
+                        </button>
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -115,14 +128,19 @@ const Hero1 = () => {
                     data-aos="fade-up"
                   >
                     <h1 className="hero-heading fw-500 fs-md-3">
-                    Seamless Service. Unmatched Excellence.
+                      Seamless Service. Unmatched Excellence.
                     </h1>
 
                     <div>
                       <div className="d-flex flex-column flex-sm-row  align-items-sm-center justify-content-center justify-content-sm-center mt-4 mt-sm-0">
-                        <button type="button" class="btn-lg read-more-btn  btn-twentyTwo"> Read More </button>
+                        <button
+                          type="button"
+                          class="btn-lg read-more-btn  btn-twentyTwo"
+                        >
+                          {" "}
+                          Read More{" "}
+                        </button>
                       </div>
-
                     </div>
                   </div>
                 </div>
