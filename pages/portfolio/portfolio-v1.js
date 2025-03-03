@@ -94,7 +94,7 @@ const PortfolioV1 = () => {
             <h2 className="tx-dark mb-20">Product Knowledge</h2>
           </div>
         </div>
-        <div className="row">
+        <div className="row align-items-center justify-content-center">
           {features.map((feature, index) => (
             <div
               className="col-lg-4 col-sm-6"
@@ -356,8 +356,6 @@ const PortfolioV1 = () => {
             </div>
             <div className="col-lg-6">
               <div className="weatherWrp">
-                 
-
                 <p>
                   Our innovative snap-fit sections make assembly and glass
                   replacement smooth and effortless, without disrupting floors
@@ -378,10 +376,7 @@ const PortfolioV1 = () => {
 
           <div className="row mt-70">
             <div className="col-lg-6">
-              <div className="weatherWrp">
-                
-            
-              </div>
+              <div className="weatherWrp"></div>
             </div>
 
             <div className="col-lg-6">

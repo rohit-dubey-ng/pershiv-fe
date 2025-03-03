@@ -99,7 +99,6 @@ const Preshiv = () => {
   ];
   return (
     <>
-
       <Seo pageTitle="Insurance" />
       {/* <!-- 
       =============================================
@@ -120,7 +119,7 @@ const Preshiv = () => {
 			--> */}
       <div className="fancy-feature-thirtyFour mt-50">
         <div className="container">
-          <div className="row ">
+          <div className="row align-items-center justify-content-center ">
             <Feature />
           </div>
         </div>
@@ -136,7 +135,6 @@ const Preshiv = () => {
         <div className="container" data-aos="fade-up">
           <Banner />
         </div>
-
 
         <div className="bg-wrapper mt-150 pt-100 lg-mt-80 lg-pt-70">
           <div className="container">
@@ -184,8 +182,7 @@ const Preshiv = () => {
         </div>
         {/* /.container */}
       </div>
-       
-       
+
       <div className="our-vision-mission fancy-feature-thirtySeven mt-225 lg-mt-120">
         <div className="container">
           <div className="row">
@@ -195,7 +192,7 @@ const Preshiv = () => {
           </div>
         </div>
       </div>
-       
+
       <div
         className="feedback-section-eleven position-relative mt-200 pt-100 pb-70 lg-mt-120 lg-pt-70 lg-pb-50"
         data-aos="fade-up"
@@ -252,36 +249,127 @@ const Preshiv = () => {
 
         <div className="container mt-50">
           <div className="client-logo-image">
-            <ul className="nav nav-pills mb-3 text-center justify-content-center" id="pills-tab" role="tablist">
+            <ul
+              className="nav nav-pills mb-3 text-center justify-content-center"
+              id="pills-tab"
+              role="tablist"
+            >
               <li className="nav-item" role="presentation">
-                <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Associated Organization</button>
+                <button
+                  className="nav-link active"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  Associated Organization
+                </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Infrastructure Developer</button>
+                <button
+                  className="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Infrastructure Developer
+                </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Associated with Gov department</button>
+                <button
+                  className="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Associated with Gov department
+                </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Textile Industries</button>
+                <button
+                  className="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Textile Industries
+                </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Diamond & Jewelery</button>
+                <button
+                  className="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Diamond & Jewelery
+                </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Pharma & Healthcare</button>
+                <button
+                  className="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Pharma & Healthcare
+                </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Hotel & Beverages</button>
+                <button
+                  className="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Hotel & Beverages
+                </button>
               </li>
             </ul>
             <div className="tab-content" id="pills-tabContent">
-              <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div
+                className="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
                 <div className="partner-section-three mt-140 mb-50 lg-mt-100 lg-mb-100">
                   <Partner />
                 </div>
               </div>
-              <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div
+                className="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
                 <div className="partner-section-three mt-140 mb-50 lg-mt-100 lg-mb-100">
                   <Partner />
                 </div>

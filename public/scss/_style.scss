@@ -7044,6 +7044,13 @@ body .btn-twentyFive:hover {
   transform: scale(1);
 }
 
+.feedback-section-seven .slick-slider .slick-arrow.slick-next {
+  display: none !important;
+}
+.feedback-section-seven .slick-slider .slick-arrow.slick-prev {
+  display: none !important;
+}
+
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Twenty Nine ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-twentyNine .shape-one {
   width: 24px;
@@ -12662,6 +12669,12 @@ li .nav_datalist {
   }
 }
 
+.vision-card .vision-card-body .card-text ul li {
+    max-width: 300px;
+    width: 100%;
+    text-align: left;
+}
+
 
 @media (max-width: 1199px) {
   #heroSectionSlider {
@@ -12710,6 +12723,11 @@ li .nav_datalist {
 
   .right-widget {
     margin-right: auto;
+}
+
+.feedback_slider_seven .item {
+    margin: 12px auto 0 auto  !important;
+    padding:0 12px;
 }
 
 .call-address {
@@ -12761,6 +12779,17 @@ a{
 font-size: 14px;
 }
 
+}
+
+.vision-card .vision-card-body .card-text ul  {
+   padding-left: 24px;
+}
+
+
+.vision-card .vision-card-body .card-text ul li {
+    max-width: 300px;
+    width: 100%;
+    text-align: left;
 }
 
 }

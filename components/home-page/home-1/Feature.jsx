@@ -8,7 +8,8 @@ const Feature = () => {
       title: <>Expertise </>,
       width: "169",
       height: "165",
-      description: "With nearly two decades of experience in the industry, we take pride in our ability to craft top-quality windows and doors that are tailored to your specific needs. Our team’s extensive knowledge and skill ensure that every product we create meets the highest standards of excellence. ",
+      description:
+        "With nearly two decades of experience in the industry, we take pride in our ability to craft top-quality windows and doors that are tailored to your specific needs. Our team’s extensive knowledge and skill ensure that every product we create meets the highest standards of excellence. ",
       icon: "fi fi-rr-user-experience",
       delay: "300",
     },
@@ -115,33 +116,33 @@ const Feature = () => {
     <>
       <div className="container aos-init aos-animate mt-50" data-aos="fade-up">
         <div className="top-banner text-center">
-           <h2 className="tx-dark mb-20">Why Choose Pershiv</h2>
+          <h2 className="tx-dark mb-20">Why Choose Pershiv</h2>
         </div>
       </div>
-      <div className="row">
+      <div className="row align-items-center justify-content-center">
         {features.map((feature, index) => (
           <div
-          className="col-lg-4 col-sm-6 choose-pershiv-card"
-          key={index}
-          data-aos="fade-up"
-          data-aos-delay={feature.delay}
-        >
-          <div
-            className={`why-pershiv-card tran3s position-relative mt-35`}
-            style={{ background: "#f0f0f0" }} // Light shade background
+            className="col-lg-4 col-sm-6 choose-pershiv-card"
+            key={index}
+            data-aos="fade-up"
+            data-aos-delay={feature.delay}
           >
-            <div className="icon-round mb-3">
-              <i
-                className={`position-absolute ${feature.icon}`}
-                style={{
-                  fontSize: feature.height, // Adjust size to match dimensions
-                }}
-              />
+            <div
+              className={`why-pershiv-card tran3s position-relative mt-35`}
+              style={{ background: "#f0f0f0" }} // Light shade background
+            >
+              <div className="icon-round mb-3">
+                <i
+                  className={`position-absolute ${feature.icon}`}
+                  style={{
+                    fontSize: feature.height, // Adjust size to match dimensions
+                  }}
+                />
+              </div>
+              <h4>{feature.title}</h4>
+              <p className="fs-16 fs-md-20 lh-base ">{feature.description}</p>
             </div>
-            <h4>{feature.title}</h4>
-            <p className="fs-16 fs-md-20 lh-base ">{feature.description}</p>
           </div>
-        </div>
         ))}
       </div>
 
