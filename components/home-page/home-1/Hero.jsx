@@ -1,8 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import image1 from "images/assets/window1.jpg";
-import image2 from "images/assets/window2.jpg";
-import image3 from "images/assets/window3.jpg";
 
 const Hero1 = () => {
   const options = [
@@ -57,7 +54,13 @@ const Hero1 = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <Image src={image1} className="d-block w-100" alt="..." />
+            <Image
+              src="/images/assets/window1.jpg"
+              className="d-block w-100"
+              alt="..."
+              height={500}
+              width={500}
+            />
             <div className="banner-text">
               <div className="container">
                 <div className="row">
@@ -86,7 +89,13 @@ const Hero1 = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <Image src={image2} className="d-block w-100" alt="..." />
+            <Image
+              src="/images/assets/window2.jpg"
+              className="d-block w-100"
+              alt="..."
+              height={500}
+              width={500}
+            />
             <div className="banner-text">
               <div className="container">
                 <div className="row">
@@ -115,7 +124,13 @@ const Hero1 = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <Image src={image3} className="d-block w-100" alt="..." />
+            <Image
+              src="/images/assets/window3.jpg"
+              className="d-block w-100"
+              alt="..."
+              width={500}
+              height={500}
+            />
             <div className="banner-text">
               <div className="container">
                 <div className="row">
