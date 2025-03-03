@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import image1 from "/public/images/assets/window1.jpg";
+import image1 from "/images/assets/window1.jpg";
 import image2 from "../../../public/images/assets/window (2).jpg";
 import image3 from "../../../public/images/assets/window (3).jpg";
 
