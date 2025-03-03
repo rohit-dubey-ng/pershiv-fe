@@ -146,7 +146,7 @@ const Hero1 = () => {
                       <div className="d-flex flex-column flex-sm-row  align-items-sm-center justify-content-center justify-content-sm-center mt-4 mt-sm-0">
                         <button
                           type="button"
-                          class="btn-lg read-more-btn  btn-twentyTwo"
+                          class="btn-lg read-more-btn btn-twentyTwo"
                         >
                           {" "}
                           Read More{" "}
