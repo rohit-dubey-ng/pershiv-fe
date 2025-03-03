@@ -16,7 +16,7 @@ const DefaulHeader = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "https://pershiv-fe.vercel/b.pdf"; // Path inside the public folder
+    link.href = "https://pershiv-fe.vercel.app/b.pdf"; // Path inside the public folder
     link.download = "Barucher.pdf"; // Rename file (optional)
     document.body.appendChild(link);
     link.click();
