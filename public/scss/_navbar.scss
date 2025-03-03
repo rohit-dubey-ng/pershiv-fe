@@ -403,4 +403,14 @@
     padding-bottom: 0;
   }
 }
+
+@media screen and (max-width: 575px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar-collapse .logo {
+    margin-bottom: 2vh;
+  }
+ }
+
 /*(max-width: 991px)*/

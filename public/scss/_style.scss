@@ -17,7 +17,7 @@
 ====================================================================
 
  ***/
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
   width: 5px;
 }
 
@@ -12383,16 +12383,101 @@ div#heroSectionSlider {
     justify-content: center;
     border-radius: 50px;
 
-  :hover{
-    color:#51658d;
-    border:1px solid #000;
-  }
+  // :hover{
+  //   color:#51658d;
+  //   border:1px solid #000;
+  // }
 }
 
 
 a{
   font-size: 14px;
 }
+
+}
+
+// .call a {
+//   max-width: 60px;
+//   width: 100%;
+//   height: 60px;
+//   border: 1px solid #000;
+//   border-radius: 40px;
+//   display: flex;
+//   align-items: center;
+// }
+
+
+.contact-direction {
+  P {
+    margin: 0;
+  }
+
+}
+
+.call-address {
+
+  // display: flex;
+  // align-items: center;
+  // gap: 25px;
+  p {
+    margin-bottom: 10px;
+  }
+
+  a {
+    i {
+      font-size: 18px;
+    }
+  }
+}
+
+.call {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .phone {
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #51658d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+  }
+
+}
+
+
+
+.address {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+
+  .location {
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #51658d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+    :hover {
+      color: #51658d;
+      border: 1px solid #000;
+    }
+  }
+
+
+  a {
+    font-size: 14px;
+  }
 
 }
 
@@ -12622,4 +12707,71 @@ li .nav_datalist {
   #heroSectionSlider .carousel-item img {
     height: 100vh;
   }
+
+  .right-widget {
+    margin-right: auto;
+}
+
+.call-address {
+ 
+
+  a {
+    i {
+      font-size: 16px;
+    }
+  }
+}
+
+.call {
+ 
+  .phone {
+    max-width: 30px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #51658d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+}
+
+.address {
+
+
+.location {
+  max-width: 30px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #51658d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+
+// :hover{
+//   color:#51658d;
+//   border:1px solid #000;
+// }
+}
+
+
+a{
+font-size: 14px;
+}
+
+}
+
+}
+
+@media(max-width: 430px) {
+  #heroSectionSlider .carousel-item img {
+    height: 50vh;
+  }
+.btn-twentyTwo {
+    font-size: 12px;
+}
+
+
 }
