@@ -20,8 +20,12 @@ import Quote from "../../components/home-page/home-1/Quote";
 import imageBox from "../../public/images/assets/logo.png";
 import Slider from "react-slick";
 import Image from "next/image";
+import email from "../../public/images/icon/email.png";
+import location from "../../public/images/icon/location.png";
+import phone from "../../public/images/icon/phone.png";
 
 const Preshiv = () => {
+  const address = "Mangaldas shopping center, navjivan circle,U.M ROAD,SURAT";
   const services = [
     {
       icon: "images/assets/window-image.png",
@@ -238,7 +242,7 @@ const Preshiv = () => {
 
       {/* core-technology */}
 
-      <div className="blog-section-one p-30 mt-180 lg-mt-120">
+      {/* <div className="blog-section-one p-30 mt-180 lg-mt-120">
         <div className="text-center">
           <h3>What is Lorem Ipsum?</h3>
           <p>
@@ -377,7 +381,7 @@ const Preshiv = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* core-technology */}
 
@@ -438,7 +442,7 @@ const Preshiv = () => {
                   </div>
                   <div className="col-xl-5 col-lg-6 order-lg-first mt-50 mb-50">
                     <div className="form-style-two md-mb-40">
-                      <ContactForm />
+                      <ContactForm address={address} />
                     </div>
                     {/* /.form-style-two */}
                   </div>
@@ -505,12 +509,12 @@ const Preshiv = () => {
         <div className="container">
           <div className="position-relative pt-200 pb-180 lg-pt-120 md-pb-130">
             <div className="row align-items-center">
-              <div className="col-lg-6" data-aos="fade-right">
+              <div className="col-lg-12" data-aos="fade-right">
                 <div className="title-style-eleven md-mb-20">
                   <h2 className="main-title tx-dark">Locate Us</h2>
                 </div>
               </div>
-              <div className="col-lg-4 ms-auto " data-aos="fade-left">
+              {/* <div className="col-lg-4 ms-auto " data-aos="fade-left">
                 <div className="form-group ">
                   <select
                     className="form-select"
@@ -525,12 +529,59 @@ const Preshiv = () => {
                     <option value="Delhi">Delhi</option>
                   </select>
                 </div>
-              </div>
+              </div> */}
             </div>
             {/* End .row */}
 
-            <div className="row gx-xxl-5 pt-90 lg-pt-40 md-pt-20">
-              <Property />
+            <div className="row gx-xxl-5 pt-60 lg-pt-40 md-pt-20">
+              <div className="location_slider">
+                <div className="slider_image">
+                  <Image
+                    src={location}
+                    alt="media"
+                    className="lazy-img mt-40 mb-40 lg-mt-20 lg-mb-20"
+                  />
+                </div>
+
+                <div className="slider_content">
+                  <h6>Surat</h6>
+                  <p>
+                    22,23,FIRST FLOOR, MANGALDAS SHOPPING CENTER, NAJIVAN
+                    CIRCLE,U.M ROAD,SURAT.
+                  </p>
+                </div>
+
+                <div className="city_details">
+                  <div className="city_list">
+                    <div className="city_social_links">
+                      <Image
+                        src={email}
+                        alt="media"
+                        className="lazy-img mt-40 mb-40 lg-mt-20 lg-mb-20"
+                      />
+                    </div>
+
+                    <div className="mail_details">
+                      <p>response@pershiv.com</p>
+                    </div>
+                  </div>
+
+                  <div className="city_list">
+                    <div className="city_social_links">
+                      <Image
+                        src={phone}
+                        alt="media"
+                        className="lazy-img mt-40 mb-40 lg-mt-20 lg-mb-20"
+                      />
+                    </div>
+
+                    <div className="mail_details">
+                      <p>1800 102 9880</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <Property /> */}
             </div>
             {/* End .row */}
 
@@ -544,9 +595,9 @@ const Preshiv = () => {
       {/* end parter */}
       {/* /.blog-section-three */}
       {/* /Partner */}
-      <div className="partner-section-three mt-140 mb-170 lg-mt-100 lg-mb-100">
+      {/* <div className="partner-section-three mt-140 mb-170 lg-mt-100 lg-mb-100">
         <Partner />
-      </div>
+      </div> */}
       {/* /Partner end */}
       {/*
 			=====================================================

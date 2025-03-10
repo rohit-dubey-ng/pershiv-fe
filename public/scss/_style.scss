@@ -668,6 +668,7 @@ p {
   font-size: 64px;
   line-height: 1.25em;
   letter-spacing: -2px;
+  text-align: center;
 }
 
 .title-style-eleven .sc-title {
@@ -11679,8 +11680,11 @@ body .btn-twentyFive:hover {
 
 // property
 .location_slider {
-  padding: 10px;
-  margin: 0 10px;
+    padding: 40px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 8px 4px #80808029;
+    width: 40%;
 
   .slider_image {
     width: 100%;
@@ -11708,8 +11712,7 @@ body .btn-twentyFive:hover {
 
     p {
       font-size: 13px;
-      margin-bottom: 6px;
-      min-height: 96px;
+      margin-bottom: 16px;
     }
   }
 
@@ -12389,6 +12392,7 @@ div#heroSectionSlider {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    cursor: pointer;
 
   // :hover{
   //   color:#51658d;
@@ -12670,7 +12674,7 @@ li .nav_datalist {
 }
 
 .vision-card .vision-card-body .card-text ul li {
-    max-width: 300px;
+    // max-width: 300px;
     width: 100%;
     text-align: left;
 }

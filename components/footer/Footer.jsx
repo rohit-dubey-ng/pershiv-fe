@@ -107,8 +107,8 @@ const Footer = () => {
                   alt="Vision Image"
                 />
                 <address>
-                  Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
-                  Bangalore-560016
+                  22,23,FIRST FLOOR, MANGALDAS SHOPPING CENTER, NAJIVAN
+                  CIRCLE,U.M ROAD,SURAT.
                 </address>
               </div>
 

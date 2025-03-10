@@ -384,7 +384,7 @@ const PortfolioV1 = () => {
                 <Image
                   width={600}
                   height={400}
-                  src="/images/assets/conditions.jpg"
+                  src="/images/assets/conditions.jpeg"
                   alt="media"
                   className="lazy-img lg-mt-20 lg-mb-20 "
                 />

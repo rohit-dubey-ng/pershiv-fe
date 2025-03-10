@@ -1,21 +1,26 @@
 import { useState } from "react";
 
-const ContactForm = () => {
+const ContactForm = ({ address }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     contact: "",
     category: "",
+    description: "",
   });
 
+  const handleClick = () => {
+    const encodedAddress = encodeURIComponent(address);
+    const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodedAddress}`;
+    window.location.href = googleMapsUrl;
+  };
   const bookService = (values) => {
     console.log(values);
-    const { name, email, contact, category } = values;
+    const { name, email, contact, category, description } = values;
 
     const message = encodeURIComponent(
-      `Hello,\nI want to book a appointment.\nName: ${name}\n Email: ${email}\n Phone: ${contact}\n Make & Model: ${category}.`
+      `Hello,\nI want to book a appointment.\nName: ${name}\n Email: ${email}\n Phone: ${contact}\n category: ${category}\n description ${description}.`
     );
-
     const whatsappURL = `https://wa.me/${9377780098}?text=${message}`;
 
     // Open in a new tab
@@ -85,20 +90,41 @@ const ContactForm = () => {
           </div>
         </div>
         {/* End .col-12 */}
+        <div className="col-12">
+          <div className="input-group-meta form-group mb-20">
+            <input
+              type="description"
+              placeholder="Description*"
+              name="description"
+              value={formData.description}
+              onChange={handleChange}
+              required
+            />
+            <div className="help-block with-errors" />
+          </div>
+        </div>
+        {/* End .col-12 */}
 
         <div className="contact-direction">
           <p>Call & Direction</p>
           <div className="call-address">
-             <div className="call">
-            <a href="+919377780098" className="phone"><i class="fa-solid fa-phone"></i></a> 
-            <a href="#"> +919377780098 </a>
+            <div className="call">
+              <a href="+919377780098" className="phone">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+              <p> +919377780098 </p>
             </div>
 
             <div className="address">
-           <a href="#" className="location"><i class="fa-solid fa-location-dot" ></i></a>
-           <a href="#"> Pershiv Alu Systems - 22-23, first floor, Mangaldas Shopping Centre, Navjivan Circle U.M Road, Surat - 395017.
-           </a>
-           </div>
+              <a onClick={handleClick} className="location">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+              <p>
+                {" "}
+                Pershiv Alu Systems - 22-23, first floor, Mangaldas Shopping
+                Centre, Navjivan Circle U.M Road, Surat - 395017.
+              </p>
+            </div>
           </div>
         </div>
 
