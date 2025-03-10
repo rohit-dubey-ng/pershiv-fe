@@ -12513,8 +12513,12 @@ a{
   .radio_data {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     margin-bottom: 15px;
+
+    .form-check-label {
+      font-size: 15px;
+    }
   }
 }
 
