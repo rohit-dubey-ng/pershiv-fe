@@ -4919,15 +4919,62 @@ body .btn-twentyFive:hover {
 }
 
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.hero-banner-five {
-  background: url(../../public/images/assets/banner-image.jpg) no-repeat center bottom;
+.hero-banner-five-pershiv-touch {
+  background: url(../../public/images/assets/PershivTouch.jpg) no-repeat center bottom;
   background-size: cover;
   z-index: 1;
   padding: 200px 0 200px;
   margin: 100px 0;
   background-position: center;
-  height: 70vh;
+  height: 80vh;
 }
+
+.hero-banner-five-QualityBanner {
+  background: url(../../public/images/assets/QualityInnovationBanner.jpg) no-repeat center bottom;
+  background-size: cover;
+  z-index: 1;
+  padding: 200px 0 200px;
+  margin: 100px 0;
+  background-position: center;
+  height: 80vh;
+}
+.hero-banner-five-FeatureBanner {
+  background: url(../../public/images/assets/FeatureBenefitsBanner.jpg) no-repeat center bottom;
+  background-size: cover;
+  z-index: 1;
+  padding: 200px 0 200px;
+  margin: 100px 0;
+  background-position: center;
+  height: 80vh;
+}
+.hero-banner-five-DesignBanner {
+  background: url(../../public/images/assets/DesignsandStylesBanner.jpg) no-repeat center bottom;
+  background-size: cover;
+  z-index: 1;
+  padding: 200px 0 200px;
+  margin: 100px 0;
+  background-position: center;
+  height: 80vh;
+}
+.hero-banner-five-GreenBanner {
+  background: url(../../public/images/assets/SustainabilityBanner.jpg) no-repeat center bottom;
+  background-size: cover;
+  z-index: 1;
+  padding: 200px 0 200px;
+  margin: 100px 0;
+  background-position: center;
+  height: 80vh;
+}
+.hero-banner-five-CustomerComplaint {
+  background: url(../../public/images/assets/ContacUsBanner.png) no-repeat center bottom;
+  background-size: cover;
+  z-index: 1;
+  padding: 200px 0 200px;
+  margin: 100px 0;
+  background-position: center;
+  height: 80vh;
+}
+
 
 .hero-banner-five .hero-heading {
   font-family: "eustacheregular";

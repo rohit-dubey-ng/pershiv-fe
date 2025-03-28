@@ -83,7 +83,7 @@ const IntroAbout = () => {
               width={561}
               height={732}
               layout="intrinsic"
-              src="/images/media/img_53.png"
+              src="/images/assets/Home Page Quality and Innovation section horizontal image.jpg"
               className="lazy-img avatar-img"
               alt="man"
             />

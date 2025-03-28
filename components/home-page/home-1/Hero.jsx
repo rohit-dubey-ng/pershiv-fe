@@ -55,7 +55,7 @@ const Hero1 = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <Image
-              src="/images/assets/window1.jpg"
+              src="/images/assets/HomePageBanner1.jpg"
               className="d-block w-100"
               alt="..."
               height={500}
@@ -90,7 +90,7 @@ const Hero1 = () => {
           </div>
           <div className="carousel-item">
             <Image
-              src="/images/assets/window2.jpg"
+              src="/images/assets/HomePageBanner2.jpg"
               className="d-block w-100"
               alt="..."
               height={500}
@@ -125,7 +125,7 @@ const Hero1 = () => {
           </div>
           <div className="carousel-item">
             <Image
-              src="/images/assets/window3.jpg"
+              src="/images/assets/HomePageBanner3.jpg"
               className="d-block w-100"
               alt="..."
               width={500}

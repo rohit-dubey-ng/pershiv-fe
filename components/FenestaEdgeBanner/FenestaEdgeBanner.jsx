@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const FenestaEdgeBanner = () => {
   return (
-    <div className="hero-banner-five text-center position-relative herMenu">
+    <div className="hero-banner-five-pershiv-touch text-center position-relative herMenu">
       <div className="container">
         <div className="row">
           <div

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const DesignBanner = () => {
   return (
-    <div className="hero-banner-five text-center position-relative herMenu overflow-hidden">
+    <div className="hero-banner-five-DesignBanner text-center position-relative herMenu overflow-hidden">
       <div className="container">
         <div className="row">
           <div
