@@ -200,7 +200,7 @@ const Testimonials = () => {
                                   height="350"
                                   src={testimonial.videoUrl}
                                 >
-                                  Your browser does not support the video tag.?
+                                  Your browser does not support the video tag.
                                 </iframe>
                               </div>
                               <div className="testimonial-author mt-4 text-center">
