@@ -4,7 +4,7 @@ import React from "react";
 const Hero1 = () => {
   const options = [
     { value: 0, display: "Windows" },
-    { value: 1, display: "Doors" },
+    // { value: 1, display: "Doors" },
     { value: 2, display: "Accessories" },
     { value: 3, display: "Services" },
   ];

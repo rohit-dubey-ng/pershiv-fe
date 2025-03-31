@@ -26,11 +26,11 @@ const Insurance = () => {
       title: "Windows",
       delayAnim: 0,
     },
-    {
-      // icon: "images/icon/icon_105.svg",
-      title: "Doors",
-      delayAnim: 100,
-    },
+    // {
+    //   // icon: "images/icon/icon_105.svg",
+    //   title: "Doors",
+    //   delayAnim: 100,
+    // },
     {
       // icon: "images/icon/icon_106.svg",
       title: "Accessories",

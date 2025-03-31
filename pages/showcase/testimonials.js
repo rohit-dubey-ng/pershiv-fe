@@ -1,4 +1,3 @@
-
 import DefaulHeader from "../../components/header/DefaulHeader";
 import Image from "next/image";
 import testimonial from "../../data/testimonial";
@@ -6,37 +5,31 @@ import Seo from "../../components/common/Seo";
 import Slider from "react-slick";
 import Footer from "../../components/footer/Footer";
 
-
 const testimonials = [
   {
-    videoUrl: "https://youtu.be/hceNBCnOx44",
+    videoUrl: "https://www.youtube.com/embed/WyTMOrtt350",
     author: "John Doe",
-    position: "CEO, Company A"
+    position: "CEO, Company A",
   },
   {
-    videoUrl: "https://youtu.be/hceNBCnOx44",
+    videoUrl: "https://www.youtube.com/embed/qstOzbD2XG0",
     author: "Jane Smith",
-    position: "Marketing Head, Company B"
+    position: "Marketing Head, Company B",
   },
   {
-    videoUrl: "https://youtu.be/hceNBCnOx44",
+    videoUrl: "https://www.youtube.com/embed/F3fUdW3DUkQ",
     author: "David Brown",
-    position: "CTO, Company C"
+    position: "CTO, Company C",
   },
   {
-    videoUrl: "https://youtu.be/hceNBCnOx44",
+    videoUrl: "https://www.youtube.com/embed/_OtcG0oWW4c",
     author: "David Brown",
-    position: "CTO, Company C"
+    position: "CTO, Company C",
   },
   {
-    videoUrl: "https://youtu.be/hceNBCnOx44",
+    videoUrl: "https://www.youtube.com/embed/WyTMOrtt350",
     author: "David Brown",
-    position: "CTO, Company C"
-  },
-  {
-    videoUrl: "https://youtu.be/hceNBCnOx44",
-    author: "David Brown",
-    position: "CTO, Company C"
+    position: "CTO, Company C",
   },
 ];
 
@@ -96,7 +89,6 @@ const Testimonials = () => {
     ],
   };
 
-
   return (
     <>
       <Seo pageTitle="Testimonials" />
@@ -112,16 +104,47 @@ const Testimonials = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="showcase-image-tab">
-                  <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <ul
+                    className="nav nav-pills mb-3"
+                    id="pills-tab"
+                    role="tablist"
+                  >
                     <li className="nav-item" role="presentation">
-                      <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Retail</button>
+                      <button
+                        className="nav-link active"
+                        id="pills-home-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-home"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-home"
+                        aria-selected="true"
+                      >
+                        Retail
+                      </button>
                     </li>
                     <li className="nav-item" role="presentation">
-                      <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Projects</button>
+                      <button
+                        className="nav-link"
+                        id="pills-profile-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-profile"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-profile"
+                        aria-selected="false"
+                      >
+                        Projects
+                      </button>
                     </li>
                   </ul>
                   <div className="tab-content" id="pills-tabContent">
-                    <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div
+                      className="tab-pane fade show active"
+                      id="pills-home"
+                      role="tabpanel"
+                      aria-labelledby="pills-home-tab"
+                    >
                       <div className="client-review">
                         <Slider {...settings}>
                           {testimonial.slice(0, 4).map((item) => (
@@ -131,20 +154,28 @@ const Testimonials = () => {
                                   <div>
                                     <h3 className="tx-dark m0">{item.title}</h3>
                                     <ul className="style-none d-flex rating pt-15">
-                                      {Array.from({ length: item.rating }).map((_, index) => (
-                                        <li key={index}>
-                                          <i className="bi bi-star-fill" />
-                                        </li>
-                                      ))}
+                                      {Array.from({ length: item.rating }).map(
+                                        (_, index) => (
+                                          <li key={index}>
+                                            <i className="bi bi-star-fill" />
+                                          </li>
+                                        )
+                                      )}
                                     </ul>
                                   </div>
-                                  <img src="/images/icon/icon_112.svg" alt="" width={50} />
+                                  <img
+                                    src="/images/icon/icon_112.svg"
+                                    alt=""
+                                    width={50}
+                                  />
                                 </div>
                                 <p className="tx-dark">{item.text}</p>
                                 <div className="d-flex align-items-center justify-content-between">
                                   <div className="cost fw-500 tx-dark fs-20">
                                     {item.author},{" "}
-                                    <span className="opacity-50 fw-normal">{item.location}</span>
+                                    <span className="opacity-50 fw-normal">
+                                      {item.location}
+                                    </span>
                                   </div>
                                   <Image
                                     width={60}
@@ -164,10 +195,13 @@ const Testimonials = () => {
                           {testimonials.map((testimonial, index) => (
                             <div key={index}>
                               <div className="video-container">
-                                <video width="100%" controls>
-                                  <source src={testimonial.videoUrl} type="video/mp4" />
-                                  Your browser does not support the video tag.
-                                </video>
+                                <iframe
+                                  width="100%"
+                                  height="350"
+                                  src={testimonial.videoUrl}
+                                >
+                                  Your browser does not support the video tag.?
+                                </iframe>
                               </div>
                               <div className="testimonial-author mt-4 text-center">
                                 <h5>{testimonial.author}</h5>
@@ -178,12 +212,21 @@ const Testimonials = () => {
                         </Slider>
                       </div>
                     </div>
-                    <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div
+                      className="tab-pane fade"
+                      id="pills-profile"
+                      role="tabpanel"
+                      aria-labelledby="pills-profile-tab"
+                    >
                       <div className="project-list">
                         <Slider {...settings}>
                           {imageData.map((image, index) => (
                             <div key={index}>
-                              <img src={image.imgSrc} alt={image.altText} className="img-fluid" />
+                              <img
+                                src={image.imgSrc}
+                                alt={image.altText}
+                                className="img-fluid"
+                              />
                             </div>
                           ))}
                         </Slider>
@@ -202,4 +245,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-
