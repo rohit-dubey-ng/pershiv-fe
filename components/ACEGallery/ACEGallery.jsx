@@ -73,7 +73,7 @@ const ACEGallery = () => {
                 <div className="video-container">
                   <iframe width="100%" src={testimonial.videoUrl} controls>
                     {/* <source  type="video/mp4" /> */}
-                    Your browser does not support the video tag.?
+                    Your browser does not support the video tag.
                   </iframe>
                 </div>
                 <div className="testimonial-author mt-4 text-center">

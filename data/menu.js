@@ -47,7 +47,7 @@ export const pagesItems = [
 export const portfolioItems = [
   { name: "Windows", link: "/portfolio/portfolio-v1" },
   // { name: "Doors", link: "/portfolio/portfolio-v2" },
-  // { name: "Accesories", link: "/portfolio/portfolio-v3" },
+  { name: "Accesories", link: "/portfolio/portfolio-v3" },
   { name: "Services", link: "/portfolio/portfolio-v4" },
 ];
 
