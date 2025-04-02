@@ -7,8 +7,6 @@ const Blog = () => {
       {blogData.slice(25, 27).map((item, index) => (
         <div
           className="col-md-6 d-flex"
-          data-aos="fade-up"
-          data-aos-delay={(index + 1) * 100}
           key={index}
         >
           <article

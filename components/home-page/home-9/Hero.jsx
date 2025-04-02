@@ -40,20 +40,17 @@ const Hero = () => {
           src="/images/media/img_26.jpg"
           alt=""
           className="lazy-img avatar-img m-auto rounded-circle"
-          data-aos="fade-up"
         />
         <div
           className="profile-name tx-dark text-lg mt-35 mb-20"
-          data-aos="fade-up"
-          data-aos-delay="200"
+
         >
           Hi, I’m <span className="fw-500">Rashed</span>
         </div>
         <div className="row">
           <div
             className="col-xxl-11 col-lg-10 col-md-8 m-auto "
-            data-aos="fade-up"
-            data-aos-delay="300"
+
           >
             <h1 className="hero-heading fw-500 font-recoleta tx-dark mb-65 lg-mb-40">
               Building digital products, brands &amp; expereince
@@ -61,8 +58,7 @@ const Hero = () => {
           </div>
           <div
             className="col-lg-6 col-md-8 m-auto "
-            data-aos="fade-up"
-            data-aos-delay="400"
+
           >
             <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
               Janu is your online team mangement tool that easy and prompt
@@ -72,8 +68,7 @@ const Hero = () => {
         <a
           href="#s5"
           className="btn-eight"
-          data-aos="fade-up"
-          data-aos-delay="500"
+
         >
           Contact Me
         </a>

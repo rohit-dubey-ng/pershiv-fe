@@ -24,7 +24,6 @@ const Pricing = () => {
           <div className="row">
             <div
               className="col-xl-7 col-lg-8 m-auto text-center"
-              data-aos="fade-right"
             >
               <div className="title-style-five mb-45 md-mb-10">
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
@@ -68,7 +67,6 @@ const Pricing = () => {
         */}
       <div
         className="fancy-short-banner-sixteen mt-130 lg-mt-80"
-        data-aos="fade-up"
       >
         <div className="container">
           <div className="bg-wrapper pt-65 pb-65 lg-pt-40 lg-pb-40">

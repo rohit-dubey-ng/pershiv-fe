@@ -25,7 +25,6 @@ const SignUpBanner = () => {
         <div className="row align-items-center">
           <div
             className="col-lg-5 col-md-6 ms-auto order-md-last"
-            data-aos="fade-left"
           >
             <div className="title-style-one mb-45 lg-mb-30">
               <h2 className="main-title fw-500 text-white m0">Try it free</h2>
@@ -42,7 +41,6 @@ const SignUpBanner = () => {
 
           <div
             className="col-lg-6 col-md-6 order-md-first"
-            data-aos="fade-right"
           >
             <div className="img-holder zn2 position-relative sm-mt-40">
               <div className="row">

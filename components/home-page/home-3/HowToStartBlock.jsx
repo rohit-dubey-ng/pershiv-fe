@@ -8,7 +8,6 @@ const HowToStartBlock = () => {
         <div className="row ">
           <div
             className="col-xl-5 col-md-6 ms-auto order-md-last"
-            data-aos="fade-right"
           >
             <div className="title-style-one mb-30">
               <h2 className="main-title fw-500 text-white m0">
@@ -28,7 +27,7 @@ const HowToStartBlock = () => {
           </div>
           {/* End .col */}
 
-          <div className="col-md-6 order-md-first" data-aos="fade-left">
+          <div className="col-md-6 order-md-first" >
             <img
               src="/images/media/img_67.png"
               alt="media"

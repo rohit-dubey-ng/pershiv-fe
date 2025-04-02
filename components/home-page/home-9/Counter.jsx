@@ -38,8 +38,6 @@ const Counter = () => {
           <div
             className="counter-block-one mt-40 text-center"
             ref={ref}
-            data-aos="fade-up"
-            data-aos-delay={`${100 * index}`}
           >
             <div className="icon-bg">
               <div className="icon-img d-flex justify-content-center">

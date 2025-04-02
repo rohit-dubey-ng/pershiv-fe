@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CallToAction = () => {
   return (
-    <div className="text-center mt-150 lg-mt-100" data-aos="fade-up">
+    <div className="text-center mt-150 lg-mt-100">
       <div className="row">
         <div className="col-lg-7 m-auto">
           <h2 className="tx-dark">

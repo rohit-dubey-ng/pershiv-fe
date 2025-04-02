@@ -5,7 +5,7 @@ const FeatureBlock2 = () => {
     <div className="fancy-feature-fortyFour position-relative pt-130 lg-pt-70">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-xl-5 col-md-6" data-aos="fade-right">
+          <div className="col-xl-5 col-md-6">
             <div className="title-style-one mb-30 mt-30">
               <div className="sc-title">BECOME AN INSTRUCTOR</div>
               <h2 className="main-title fw-500 tx-dark m0">
@@ -22,7 +22,7 @@ const FeatureBlock2 = () => {
           </div>
           {/* End .col-xl-5 */}
 
-          <div className="col-xl-6 col-md-6 ms-auto" data-aos="fade-left">
+          <div className="col-xl-6 col-md-6 ms-auto">
             <img
               src="/images/media/img_68.png"
               alt="media"

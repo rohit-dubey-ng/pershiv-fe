@@ -66,7 +66,7 @@ const Hero1 = () => {
                 <div className="row">
                   <div
                     className="col-lg-9 col-md-10 m-auto text-center"
-                    data-aos="fade-up"
+                
                   >
                     <h1 className="hero-heading fw-500 fs-md-3">
                       Precision. Innovation. Pershiv.
@@ -101,7 +101,6 @@ const Hero1 = () => {
                 <div className="row">
                   <div
                     className="col-lg-9 col-md-10 m-auto text-center"
-                    data-aos="fade-up"
                   >
                     <h1 className="hero-heading fw-500 fs-md-3">
                       Tailored for you. Built to Last.
@@ -136,7 +135,6 @@ const Hero1 = () => {
                 <div className="row">
                   <div
                     className="col-lg-9 col-md-10 m-auto text-center"
-                    data-aos="fade-up"
                   >
                     <h1 className="hero-heading fw-500 fs-md-3">
                       Seamless Service. Unmatched Excellence.

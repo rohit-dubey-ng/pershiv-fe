@@ -35,7 +35,7 @@ const SeoAgency = () => {
       <div className="hero-banner-six position-relative pt-180 md-pt-150">
         <div className="container">
           <div className="row">
-            <div className="col-lg-9 m-auto text-center" data-aos="fade-up">
+            <div className="col-lg-9 m-auto text-center">
               <Hero />
               {/* /.subscribe-form */}
             </div>
@@ -44,7 +44,7 @@ const SeoAgency = () => {
 
           <div
             className="illustration-holder text-center mt-45"
-            data-aos="fade-up"
+
           >
             <div className="d-lg-block">
               <img
@@ -98,7 +98,7 @@ const SeoAgency = () => {
       <div className="fancy-feature-nineteen position-relative pt-170 pb-160 lg-pt-100 lg-pb-80">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6" data-aos="fade-right">
+            <div className="col-lg-6">
               <div className="title-style-one text-center text-lg-start">
                 <h2 className="main-title fw-normal tx-dark m0">
                   Provide <span>Quality</span> Services.
@@ -108,7 +108,7 @@ const SeoAgency = () => {
             </div>
             {/* End .col-lg-6 */}
 
-            <div className="col-xl-5 col-lg-6 ms-auto" data-aos="fade-left">
+            <div className="col-xl-5 col-lg-6 ms-auto">
               <p className="text-lg text-center text-lg-start md-pt-30 m0 ps-xxl-4">
                 Jano provides alternative asset management solutions to a global
                 client base and manages a significant.
@@ -191,7 +191,7 @@ const SeoAgency = () => {
             <div className="col-lg-8 m-auto">
               <div
                 className="title-style-one text-center mb-70 lg-mb-40"
-                data-aos="fade-up"
+
               >
                 <div className="sc-title text-uppercase">OUR PRICING </div>
                 <h2 className="main-title fw-normal tx-dark m0">
@@ -229,7 +229,7 @@ const SeoAgency = () => {
           <div className="container">
             <div className="position-relative">
               <div className="row">
-                <div className="col-lg-5 col-md-6 " data-aos="fade-right">
+                <div className="col-lg-5 col-md-6 ">
                   <div className="title-style-one text-center text-md-start mb-100 lg-mb-50">
                     <h2 className="main-title fw-normal tx-dark m0">
                       You’r gonna <span>love</span> us forever.

@@ -26,8 +26,6 @@ const Team = () => {
         <div
           className="col-lg-4 col-sm-6"
           key={index}
-          data-aos="fade-up"
-          data-aos-delay={member.delay}
         >
           <div className="team-block-one mt-40">
             <div className="img-meta position-relative">

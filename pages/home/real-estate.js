@@ -39,14 +39,14 @@ const RealEstate = () => {
         <div className="container">
           <div className="line-bg-wrapper position-relative pt-200 pb-180 lg-pt-120 md-pb-130">
             <div className="row align-items-center">
-              <div className="col-lg-6" data-aos="fade-right">
+              <div className="col-lg-6">
                 <div className="title-style-eleven md-mb-20">
                   <h2 className="main-title tx-dark">
                     Service we provide with care.
                   </h2>
                 </div>
               </div>
-              <div className="col-lg-5 ms-auto " data-aos="fade-left">
+              <div className="col-lg-5 ms-auto ">
                 <p className="text-lg m0">
                   Inciddnt ut labore et dolor magna aliu. enim ad mim venam,
                   quis nostru labore elit lorem dus amet lorem.
@@ -136,7 +136,7 @@ const RealEstate = () => {
         <div className="container">
           <div className="line-bg-wrapper position-relative zn2 pt-250 pb-180 lg-pt-120 lg-pb-80">
             <div className="row">
-              <div className="col-md-6" data-aos="fade-right">
+              <div className="col-md-6">
                 <div className="title-style-five">
                   <h2 className="main-title fw-500 tx-dark">
                     Check our client lovely words.
@@ -155,7 +155,6 @@ const RealEstate = () => {
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
                 <div
                   className="img-holder position-relative mt-25"
-                  data-aos="fade-left"
                 >
                   <img
                     src="/images/media/img_84.jpg"
@@ -196,7 +195,6 @@ const RealEstate = () => {
           src="/images/assets/sticker_03.png"
           alt="shape"
           className="lazy-img shapes shape-four"
-          data-aos="fade-up"
         />
       </div>
 
@@ -245,7 +243,7 @@ const RealEstate = () => {
       <div className="fancy-feature-fifty position-relative mt-200 lg-mt-100">
         <div className="container">
           <div className="row">
-            <div className="col-xl-5 col-lg-6" data-aos="fade-right">
+            <div className="col-xl-5 col-lg-6">
               <div className="title-style-five">
                 <h2 className="main-title fw-500 tx-dark">
                   Question &amp; Answers.
@@ -261,7 +259,7 @@ const RealEstate = () => {
             </div>
             {/* End .col */}
 
-            <div className="col-xl-7 col-lg-6 ms-auto" data-aos="fade-left">
+            <div className="col-xl-7 col-lg-6 ms-auto">
               <Faq />
             </div>
             {/* End .col */}

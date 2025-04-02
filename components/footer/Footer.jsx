@@ -157,13 +157,11 @@ const Footer = () => {
           src="/images/assets/ils_13.png"
           alt="illustration"
           className="lazy-img illustration-one"
-          data-aos="fade-left"
         />
         <img
           src="/images/assets/ils_14.png"
           alt="illustration"
           className="lazy-img illustration-two"
-          data-aos="fade-right"
         />
       </div>
 

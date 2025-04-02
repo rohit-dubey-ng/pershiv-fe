@@ -12,7 +12,7 @@ const BlockFeatureList = () => {
   ];
 
   return (
-    <div className="block-style-three ps-xxl-5" data-aos="fade-left">
+    <div className="block-style-three ps-xxl-5">
       <div className="title-style-nine">
         <div className="sc-title">How it Works</div>
         <h2 className="main-title text-white">

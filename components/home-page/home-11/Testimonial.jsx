@@ -84,7 +84,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="slider-wrapper feedback_slider_five" data-aos="fade-up">
+      <div className="slider-wrapper feedback_slider_five">
         <Slider ref={sliderRef} {...settings} arrows={false}>
           {testimonialData.map((testimonial, index) => (
             <div className="item" key={index}>

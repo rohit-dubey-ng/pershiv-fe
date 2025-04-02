@@ -71,7 +71,6 @@ const education = () => {
         <div className="container">
           <div
             className="title-style-one text-center mb-85 lg-mb-30"
-            data-aos="fade-up"
           >
             <div className="sc-title text-uppercase">OUR CORUSES</div>
             <h2 className="main-title fw-500 tx-dark m0">
@@ -99,7 +98,7 @@ const education = () => {
       <div className="fancy-feature-fortyOne position-relative mt-160 lg-mt-100">
         <div className="container">
           <div className="row">
-            <div className="col-xl-5 col-lg-6" data-aos="fade-right">
+            <div className="col-xl-5 col-lg-6">
               <div className="title-style-one mb-40 pt-30 lg-pt-10 lg-mb-20">
                 <div className="sc-title text-uppercase">CHoose your path</div>
                 <h2 className="main-title fw-500 tx-dark m0">
@@ -117,7 +116,6 @@ const education = () => {
 
             <div
               className="col-xxl-6 col-xl-7 col-lg-6 ms-auto"
-              data-aos="fade-left"
             >
               <div className="wrapper position-relative ps-sm-3 pe-sm-3 ps-xl-5 pe-xl-5 md-mt-70">
                 <div className="row">
@@ -184,7 +182,6 @@ const education = () => {
 			*/}
       <div
         className="feedback-section-thirteen position-relative mt-130 pb-25 lg-mt-100"
-        data-aos="fade-up"
       >
         <div className="container">
           <div className="row">

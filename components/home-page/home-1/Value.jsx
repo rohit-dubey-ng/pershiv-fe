@@ -45,8 +45,6 @@ const Service1 = () => {
       {services.map((service, index) => (
         <div
           className="col-lg-3 col-sm-6"
-          data-aos="fade-up"
-          data-aos-delay={service.delay}
           key={index}
         >
           <div className="card-style-sixteen tran3s text-center position-relative mt-40">

@@ -44,7 +44,6 @@ const SassProduct = () => {
             <div className="col-lg-5 col-md-6">
               <div
                 className="block-style-two pe-xxl-5 md-mb-50"
-                data-aos="fade-right"
               >
                 <div className="title-style-three">
                   <div className="sc-title text-uppercase">
@@ -79,7 +78,6 @@ const SassProduct = () => {
 
             <div
               className="col-xl-6 col-lg-7 col-md-6 ms-auto"
-              data-aos="fade-left"
             >
               <ScreenHolder />
             </div>
@@ -99,7 +97,6 @@ const SassProduct = () => {
           <div className="row">
             <div
               className="col-xxl-7 col-md-8 m-auto text-center"
-              data-aos="fade-up"
             >
               <div className="title-style-three">
                 <h2 className="main-title fw-500">
@@ -140,7 +137,6 @@ const SassProduct = () => {
             <div className="col-lg-5 col-md-6 order-md-last ms-auto">
               <div
                 className="block-style-two pe-xxl-5 sm-mb-50"
-                data-aos="fade-left"
               >
                 <div className="title-style-three">
                   <div className="sc-title text-uppercase">
@@ -180,7 +176,7 @@ const SassProduct = () => {
             </div>
             {/* End .col-lg-5 */}
 
-            <div className="col-md-6 order-md-first" data-data-aos="fade-right">
+            <div className="col-md-6 order-md-first">
               <div className="tags-wrapper position-relative">
                 <img
                   src="/images/shape/shape_35.svg"
@@ -207,7 +203,7 @@ const SassProduct = () => {
       <div className="fancy-feature-six position-relative mt-225 lg-mt-100 xs-mt-80">
         <div className="container">
           <div className="row gx-xxl-5 align-items-center">
-            <div className="col-lg-4 col-md-6 mt-40" data-aos="fade-up">
+            <div className="col-lg-4 col-md-6 mt-40">
               <div className="title-style-three mb-65 lg-mb-40">
                 <h2 className="main-title fw-500">
                   Let’s <br />
@@ -251,7 +247,6 @@ const SassProduct = () => {
         */}
       <div
         className="feedback-section-two position-relative mt-170 pt-150 pb-150 lg-mt-100 lg-pt-100 lg-pb-100 sm-pt-10 sm-pb-10"
-        data-data-aos="fade-up"
       >
         <div className="container">
           <div className="row">
@@ -307,7 +302,6 @@ const SassProduct = () => {
             <div className="col-md-8 m-auto">
               <div
                 className="title-style-three text-center mb-100 lg-mb-30"
-                data-aos="fade-up"
               >
                 <div className="sc-title text-uppercase">Our partners</div>
                 <h2 className="main-title fw-500">
@@ -360,7 +354,6 @@ const SassProduct = () => {
             <div className="col-lg-8 m-auto">
               <div
                 className="title-style-three text-center mb-60 lg-mb-40"
-                data-aos="fade-up"
               >
                 <div className="sc-title text-uppercase">Pricng Plan</div>
                 <h2 className="main-title fw-500">
@@ -403,7 +396,6 @@ const SassProduct = () => {
         */}
       <div
         className="fancy-short-banner-two mt-150 lg-mt-100"
-        data-data-aos="fade-up"
       >
         <div className="container">
           <div className="bg-wrapper ms-xxl-4 me-xxl-4 position-relative">
@@ -437,7 +429,6 @@ const SassProduct = () => {
             <div className="col-xxl-7 col-lg-8 col-md-9 m-auto text-center">
               <div
                 className="title-style-three text-center"
-                data-data-aos="fade-up"
               >
                 <h2 className="main-title fw-500">
                   Ready to take
@@ -454,14 +445,11 @@ const SassProduct = () => {
               {/* /.title-style-three */}
               <p
                 className="text-lg tx-dark pt-30 pb-55 lg-pb-30 "
-                data-aos="fade-up"
               >
                 Try it risk free — we don’t charge cancellation fees.
               </p>
               <div
                 className="subscribe-form m-auto"
-                data-data-aos="fade-up"
-                data-aos-delay="200"
               >
                 <Subscribe />
                 <p className="m0 pt-20">

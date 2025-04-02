@@ -17,7 +17,7 @@ const FenestaAceClub = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-10 m-auto">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper">
                 <h1 className="hero-heading fw-500 tx-dark text-center">
                   Fenesta Ace Club
 
@@ -35,7 +35,7 @@ const FenestaAceClub = () => {
         />
       </div>
       <div className="lg-mt-100 position-relative  pb-70 lg-mt-120 lg-pt-70 lg-pb-50 bg-black pt-70">
-        <div className="container aos-init aos-animate" data-aos="fade-up">
+        <div className="container">
           <div className="top-banner text-center mb-20">
             <h2 className="text-white mb-20">Welcome to the Fenesta Ace Club</h2>
           </div>
@@ -44,7 +44,7 @@ const FenestaAceClub = () => {
         </div>
       </div>
       <div className="mt-140 lg-mt-100 position-relative  pb-70 lg-mt-120 lg-pt-70 lg-pb-50">
-        <div className="container aos-init aos-animate" data-aos="fade-up">
+        <div className="container">
           <div className="top-banner text-center mb-50">
             <h2 className="tx-dark mb-20">ACE Gallery</h2>
           </div>
@@ -52,7 +52,7 @@ const FenestaAceClub = () => {
         </div>
       </div>
       <div className="mt-140 lg-mt-100 position-relative  pb-70 lg-mt-120 lg-pt-70 lg-pb-50">
-        <div className="container aos-init aos-animate" data-aos="fade-up">
+        <div className="container">
           <div className="top-banner text-center mb-50">
             <h2 className="tx-dark mb-20">Membership Benefits</h2>
           </div>
@@ -60,7 +60,7 @@ const FenestaAceClub = () => {
         </div>
       </div>
       <div className="mt-140 lg-mt-100 position-relative  pb-70 lg-mt-120 lg-pt-70 lg-pb-50">
-        <div className="container aos-init aos-animate" data-aos="fade-up">
+        <div className="container">
           <div className="top-banner text-center mb-50">
             <h2 className="tx-dark mb-20">Get in Touch</h2>
           </div>

@@ -493,7 +493,7 @@ const FeaturesTabs = () => {
                   <Image
                     width={900}
                     height={500}
-                    src="/images/assets/windows.jpg"
+                    src="/images/assets/rainwater.jpg"
                     alt="media"
                     className="lazy-img mt-40 mb-40 lg-mt-20 lg-mb-20 "
                   />

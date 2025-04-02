@@ -25,7 +25,6 @@ const GridLayout = () => {
           <div className="row">
             <div
               className="col-xxl-7 col-lg-6 text-center m-auto"
-              data-aos="fade-right"
             >
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative d-inline-block">

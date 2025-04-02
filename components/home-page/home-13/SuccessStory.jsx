@@ -7,7 +7,6 @@ const SuccessStory = () => {
             <div className="row">
               <div
                 className="col-xl-6 col-lg-7 order-lg-last"
-                data-aos="fade-left"
               >
                 <p className="mb-35">
                   “WordPress has been a great success—with
@@ -23,7 +22,6 @@ const SuccessStory = () => {
                   src="/images/media/img_50.jpg"
                   alt="img"
                   className="lazy-img img-one md-mt-40"
-                  data-aos="fade-up"
                 />
               </div>
             </div>
@@ -34,7 +32,6 @@ const SuccessStory = () => {
               <div className="col-lg-10 ms-auto">
                 <div
                   className="rating d-flex flex-column align-items-center justify-content-center mb-55 lg-mb-30"
-                  data-aos="fade-up"
                 >
                   <div className="font-recoleta tx-dark rating-value">4.8</div>
                   <div className="fs-20 tx-dark">Rating</div>
@@ -45,7 +42,7 @@ const SuccessStory = () => {
             {/* End .row */}
 
             <div className="row">
-              <div className="col-lg-5 ms-auto" data-aos="fade-right">
+              <div className="col-lg-5 ms-auto">
                 <h4 className="text-white fw-normal mb-25">
                   Hasan Jannat. <span className="opacity-75">Pran inc.</span>
                 </h4>
@@ -60,7 +57,6 @@ const SuccessStory = () => {
                   src="/images/media/img_51.jpg"
                   alt="img"
                   className="lazy-img img-two "
-                  data-aos="fade-up"
                 />
                 <img
                   src="/images/shape/shape_128.svg"
@@ -74,7 +70,6 @@ const SuccessStory = () => {
 
         <div
           className="customer-data d-flex flex-column align-items-center justify-content-center"
-          data-aos="fade-up"
         >
           <div className="fw-500 tx-dark amount">32k</div>
           <div className="text-lg tx-dark">Customer</div>
@@ -85,7 +80,6 @@ const SuccessStory = () => {
           src="/images/media/img_52.jpg"
           alt="img"
           className="lazy-img img-three"
-          data-aos="fade-up"
         />
         <img
           src="/images/shape/shape_127.svg"

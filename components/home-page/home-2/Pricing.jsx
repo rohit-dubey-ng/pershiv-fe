@@ -87,8 +87,6 @@ const Pricing = () => {
         <div
           className="col-xl-3 col-sm-6"
           key={plan.id}
-          data-aos="fade-up"
-          data-aos-delay={plan.animDelay}
         >
           <div
             className={`pr-table-wrapper mt-40 ${

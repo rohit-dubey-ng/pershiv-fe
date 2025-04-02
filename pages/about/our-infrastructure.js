@@ -29,7 +29,7 @@ const OurInfrastructure = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-10 m-auto">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper">
                 <h1 className="hero-heading fw-500 tx-dark text-center">
                 About Pershiv 
                 </h1>
@@ -79,7 +79,7 @@ const OurInfrastructure = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7" data-aos="fade-right">
+            <div className="col-lg-7">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
                   More About us.
@@ -102,7 +102,7 @@ const OurInfrastructure = () => {
             </div>
 
             <div className="col-xl-6 col-lg-6 ms-auto">
-              <div className="ps-xxl-5" data-aos="fade-left">
+              <div className="ps-xxl-5">
                 <h6 className="mb-30">Our History &amp; Goal.</h6>
                 <p>
                   Fenesta is India's largest windows and doors brand, and a part
@@ -146,7 +146,7 @@ const OurInfrastructure = () => {
           </div>
           <div className="row">
             <div className="col-xl-6">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper">
                 <p className="text-lg tx-dark mb-20 pt-35 text-left lg-pt-20 lg-mb-50">
                   Vision
                 </p>
@@ -158,7 +158,7 @@ const OurInfrastructure = () => {
               </div>
             </div>
             <div className="col-xl-6">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper">
                 <p className="text-lg tx-dark mb-20 pt-35 text-left lg-pt-20 lg-mb-50">
                   Mission
                 </p>
@@ -247,7 +247,6 @@ const OurInfrastructure = () => {
 			*/}
       <div
         className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
-        data-aos="fade-up"
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">

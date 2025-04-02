@@ -8,8 +8,6 @@ const Blog = () => {
         <div
           className="col-lg-4 col-md-6"
           key={article.id}
-          data-aos="fade-up"
-          data-aos-delay={article.delay}
         >
           <article className="blog-meta-two mt-30">
             <Link

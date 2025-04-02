@@ -28,8 +28,6 @@ const Block2 = () => {
         >
           <div
             className="card-style-twelve text-center position-relative mt-40"
-            data-aos="fade-up"
-            data-aos-delay={`${index * 100}`}
           >
             <div className="icon d-flex align-items-center justify-content-center">
               <Image

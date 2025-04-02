@@ -31,7 +31,6 @@ const Hero = () => {
           <div className="row">
             <div
               className="col-lg-8 col-md-9 m-auto text-center"
-              data-aos="fade-up"
             >
               <h1 className="hero-heading fw-normal font-recoleta position-relative">
                 <img
@@ -75,7 +74,6 @@ const Hero = () => {
 
           <div
             className="illustration-holder position-relative mt-120 lg-mt-80 xs-mt-30"
-            data-aos="fade-up"
           >
             <div className="bg-wrapper">
               <img

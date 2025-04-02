@@ -31,7 +31,7 @@ const Services2 = () => {
 
   return (
     <>
-      <div className="col-lg-5 me-auto mt-40 md-mt-10" data-aos="fade-up">
+      <div className="col-lg-5 me-auto mt-40 md-mt-10">
         <div className="title-style-one">
           <h2 className="main-title fw-normal tx-dark m0">
             Let’s <br /> <span>Discover</span> all our Services.
@@ -45,8 +45,6 @@ const Services2 = () => {
         <div
           key={index}
           className={`col-lg-3 col-sm-6 d-flex mt-40`}
-          data-aos="fade-up"
-          data-aos-delay={service.delay}
         >
           <div className="card-style-ten d-flex flex-column bg-white pe-3 ps-3 pe-xl-5 ps-xl-5 pt-60 pb-45 lg-pt-40 lg-pb-30">
             <div className="icon d-flex align-items-end">
@@ -70,8 +68,6 @@ const Services2 = () => {
 
       <div
         className="col-xxl-2 col-xl-3 col-lg-3 col-sm-5 ms-auto d-flex align-items-center justify-content-center text-center text-sm-start mt-40"
-        data-aos="fade-up"
-        data-aos-delay="400"
       >
         <div className="block">
           <div className="fs-15 fw-500" style={{ color: "#FF7228" }}>

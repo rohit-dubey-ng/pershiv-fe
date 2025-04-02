@@ -46,7 +46,7 @@ const Service2 = () => {
   return (
     <>
       {services.map((service) => (
-        <div className="col-lg-3 col-sm-6" key={service.id} data-aos="fade-up">
+        <div className="col-lg-3 col-sm-6" key={service.id}>
           <div className="card-style-twentyThree mt-40">
             <div className="icon d-flex align-items-center justify-content-center">
               <img src={service.icon} alt="icon" className="lazy-img tran3s" />

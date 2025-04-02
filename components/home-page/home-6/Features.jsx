@@ -45,8 +45,6 @@ const Features = () => {
         <div
           key={feature.id}
           className="col-lg-4 col-md-6 mt-40"
-          data-aos="fade-up"
-          data-aos-delay={feature.id * 100}
         >
           <div className="card-style-three">
             <div className="icon d-flex align-items-end">

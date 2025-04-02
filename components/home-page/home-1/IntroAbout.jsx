@@ -45,11 +45,11 @@ const IntroAbout = () => {
               className="lazy-img cursor-pointer"
               onClick={() => setOpen(true)}
             />
-            {/* <p className="tx-dark pt-30 pb-30 md-pb-15" data-aos="fade-up">
+            {/* <p className="tx-dark pt-30 pb-30 md-pb-15">
               The team signed <span className="fw-500">~$7,000,000</span> in new
               business in July. Accelerator has been a large part of that.
             </p> */}
-            <h2 className="tx-dark pt-30 pb-30 md-pb-15"data-aos="fade-up">
+            <h2 className="tx-dark pt-30 pb-30 md-pb-15">
             Quality & Innovations
             </h2>
             <ul className="style-none list-item fs-18">
@@ -72,7 +72,7 @@ const IntroAbout = () => {
         </div>
         {/* End .col */}
 
-        <div className="col-xl-7 col-md-6 order-md-first" data-aos="fade-up">
+        <div className="col-xl-7 col-md-6 order-md-first">
           <div className="img-holder d-lg-inline-flex position-relative zn2 pb-45 xl-pb-90">
             <img
               src="/images/shape/shape_135.svg"

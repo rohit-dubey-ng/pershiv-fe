@@ -28,8 +28,6 @@ const Services = () => {
         <div
           key={index}
           className={`col-lg-4 col-md-6 d-flex mt-40`}
-          data-aos-delay={service.delay}
-          data-aos="fade-up"
         >
           <div className="card-style-ten d-flex flex-column bg-white pe-3 ps-3 pe-xl-5 ps-xl-5 pt-60 pb-45 lg-pt-40 lg-pb-30">
             <div className="icon d-flex align-items-end">

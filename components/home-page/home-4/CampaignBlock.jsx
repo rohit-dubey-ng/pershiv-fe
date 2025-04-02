@@ -10,7 +10,6 @@ const CampaignBlock = () => {
       title: "Education for all",
       description:
         "Lorem ipsum dolor consectetur adipisci. Vivamus in magna tellus fringilla eleifend.",
-      aosDelay: "100",
     },
     {
       imgSrc: "/images/media/img_31.jpg",
@@ -20,7 +19,6 @@ const CampaignBlock = () => {
       title: "Feed African child",
       description:
         "Lorem ipsum dolor consectetur adipisci. Vivamus in magna tellus fringilla eleifend.",
-      aosDelay: "200",
     },
     {
       imgSrc: "/images/media/img_32.jpg",
@@ -30,7 +28,6 @@ const CampaignBlock = () => {
       title: "Better Future",
       description:
         "Lorem ipsum dolor consectetur adipisci. Vivamus in magna tellus fringilla eleifend.",
-      aosDelay: "300",
     },
     {
       imgSrc: "/images/media/img_31.jpg",
@@ -40,7 +37,6 @@ const CampaignBlock = () => {
       title: "Feed African child",
       description:
         "Lorem ipsum dolor consectetur adipisci. Vivamus in magna tellus fringilla eleifend.",
-      aosDelay: "400",
     },
   ];
 
@@ -49,8 +45,6 @@ const CampaignBlock = () => {
       {campaigns.map((campaign, index) => (
         <div
           className="col-lg-3 col-sm-6"
-          data-aos="fade-up"
-          data-aos-delay={campaign.aosDelay}
           key={index}
         >
           <div className="card-style-eight mt-40 ">

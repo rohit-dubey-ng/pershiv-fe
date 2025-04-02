@@ -35,7 +35,6 @@ const AppLanding = () => {
         */}
       <div
         className="hero-banner-three position-relative pt-200 md-pt-150"
-        data-aos="fade-right"
       >
         <div className="container">
           <div className="row">
@@ -46,7 +45,7 @@ const AppLanding = () => {
         </div>
         {/* /.container */}
 
-        <div className="mobile-screen" data-aos="fade-right">
+        <div className="mobile-screen">
           <div className="row gx-xxl-5 justify-content-center align-items-center">
             <div className="col-6">
               <Image
@@ -88,7 +87,7 @@ const AppLanding = () => {
       <div className="fancy-feature-seven pt-200 lg-pt-100">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-xl-6 col-lg-5" data-aos="fade-right">
+            <div className="col-xl-6 col-lg-5">
               <div className="title-style-four text-center text-lg-start">
                 <h2 className="main-title fw-500 tx-dark m0">
                   Our Application <span>Features.</span>
@@ -97,7 +96,7 @@ const AppLanding = () => {
               {/* /.title-style-four */}
             </div>
             {/* End .col-6 */}
-            <div className="col-lg-6 ms-auto" data-aos="fade-left">
+            <div className="col-lg-6 ms-auto">
               <p className="text-lg text-center text-lg-start md-pt-30 m0">
                 Commonly used in the graphic, print publishing industris for
                 previewing visual mockups. limited social discrimination.
@@ -161,7 +160,7 @@ const AppLanding = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <div className="block-style-three" data-data-aos="fade-right">
+              <div className="block-style-three">
                 <div className="title-style-four">
                   <div className="sc-title">
                     Over
@@ -186,7 +185,6 @@ const AppLanding = () => {
             </div>
             <div
               className="col-lg-7 col-md-9 m-auto text-center text-lg-right"
-              data-data-aos="fade-left"
             >
               <WhyChoose />
               {/* /.screen-container */}
@@ -207,7 +205,6 @@ const AppLanding = () => {
             <div className="col-lg-6 col-md-8 m-auto">
               <div
                 className="title-style-four text-center pb-100"
-                data-aos="fade-up"
               >
                 <div className="sc-title-two" style={{ color: "#6A45FF" }}>
                   Features
@@ -233,7 +230,6 @@ const AppLanding = () => {
         */}
       <div
         className="feedback-section-three position-relative mt-225 lg-mt-120 pb-100"
-        data-data-aos="fade-up"
       >
         <div className="container">
           <div className="row">
@@ -299,7 +295,7 @@ const AppLanding = () => {
       <div className="fancy-feature-eleven position-relative mt-200 lg-mt-120 md-mt-10">
         <div className="container">
           <div className="row align-items-start align-items-xl-center">
-            <div className="col-xl-5 col-lg-6" data-aos="fade-right">
+            <div className="col-xl-5 col-lg-6">
               <div className="title-style-four">
                 <div className="sc-title-two" style={{ color: "#6A45FF" }}>
                   Questions &amp; Answers
@@ -322,7 +318,7 @@ const AppLanding = () => {
                 Contact us
               </Link>
             </div>
-            <div className="col-lg-6 ms-auto" data-aos="fade-left">
+            <div className="col-lg-6 ms-auto">
               <Faq />
             </div>
           </div>
@@ -357,7 +353,6 @@ const AppLanding = () => {
             <div className="col-lg-8 col-md-9 m-auto">
               <div
                 className="title-style-four text-center pb-70 lg-pb-40 "
-                data-aos="fade-up"
               >
                 <h2 className="main-title fw-500 tx-dark m0">
                   No hidden <span>charge</span>, Choose your plan.
@@ -398,7 +393,7 @@ const AppLanding = () => {
       <div className="partner-section-two position-relative mt-225 mb-250 md-mt-120 md-mb-120">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-xl-5 col-lg-6" data-data-aos="fade-right">
+            <div className="col-xl-5 col-lg-6">
               <div className="title-style-four">
                 <div className="sc-title-two" style={{ color: "#6A45FF" }}>
                   Our Partners
@@ -463,7 +458,7 @@ const AppLanding = () => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-8 col-xl-9 col-md-9 m-auto text-center">
-              <div className="title-style-four" data-aos="fade-up">
+              <div className="title-style-four">
                 <h2 className="main-title fw-500 text-white m0">
                   Ready to use our App? It’s just a matter of
                   <span>one Click</span>
@@ -472,7 +467,6 @@ const AppLanding = () => {
               {/* /.title-style-four */}
               <p
                 className="text-lg text-white mt-35 mb-70 lg-mt-30 lg-mb-50"
-                data-data-aos="fade-up"
               >
                 Try it risk free — we don’t charge cancellation fees.
               </p>

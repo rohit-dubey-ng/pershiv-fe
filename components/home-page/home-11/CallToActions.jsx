@@ -10,7 +10,7 @@ const CallToActions = () => {
     <div className="container">
       <div className="row">
         <div className="col-xxl-7 col-lg-8 col-md-9 m-auto text-center">
-          <div className="title-style-one" data-aos="fade-up">
+          <div className="title-style-one">
             <h2 className="main-title fw-normal tx-dark m0">
               Ready to take plan? It’s just a matter of
               <span>one click</span>
@@ -19,15 +19,11 @@ const CallToActions = () => {
           {/* /.title-style-one */}
           <p
             className="text-lg tx-dark pt-45 pb-40 lg-pt-30 lg-pb-20"
-            data-aos="fade-up"
-            data-aos-delay="100"
           >
             Try it risk free — we don’t charge cancellation fees.
           </p>
           <div
             className="subscribe-form m-auto"
-            data-aos="fade-up"
-            data-aos-delay="200"
           >
             <form
               onSubmit={handleSubmit}

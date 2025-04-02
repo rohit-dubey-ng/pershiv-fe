@@ -94,7 +94,7 @@ const Testimonials = () => {
       <Seo pageTitle="Testimonials" />
       <DefaulHeader />
       <div className="ShowcasePage">
-        <div className="container aos-init aos-animate" data-aos="fade-up">
+        <div className="container">
           <div className="top-banner text-center">
             <h2 className="tx-dark mb-20">Pershiv Customer Reviews</h2>
           </div>

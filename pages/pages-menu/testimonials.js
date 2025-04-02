@@ -24,7 +24,7 @@ const Testimonials = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
-            <div className="col-xl-7 col-md-6" data-aos="fade-right">
+            <div className="col-xl-7 col-md-6">
               <div className="title-style-five mb-65 lg-mb-20">
                 <div className="sc-title-two fst-italic position-relative">
                   Testimonials
@@ -78,7 +78,7 @@ const Testimonials = () => {
         <div className="container">
           <div className="pt-180 pb-180 lg-pt-100 lg-pb-100 position-relative zn2">
             <div className="row">
-              <div className="col-md-6" data-aos="fade-right">
+              <div className="col-md-6">
                 <div className="title-style-five">
                   <h2 className="main-title fw-500 tx-dark">
                     Check our client lovely words.
@@ -97,7 +97,6 @@ const Testimonials = () => {
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
                 <div
                   className="img-holder position-relative mt-25"
-                  data-aos="fade-left"
                 >
                   <img
                     src="/images/media/img_84.jpg"

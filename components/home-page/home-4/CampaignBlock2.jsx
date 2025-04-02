@@ -34,8 +34,6 @@ const CampaignBlock2 = () => {
           }`}
           style={{ backgroundImage: `url(${block.imageUrl})` }}
           key={index}
-          data-aos="fade-up"
-          data-aos-delay={index * 200}
         >
           <div className="icon d-flex align-items-end">
             <img src={block.iconUrl} alt="" className="lazy-img" />

@@ -10,7 +10,7 @@ const CallToActions = () => {
     <div className="container">
       <div className="wrapper">
         <div className="row align-items-center">
-          <div className="col-lg-6" data-aos="fade-right">
+          <div className="col-lg-6">
             <h2 className="title fw-500 text-white mb-20">
               Let’s get started with us.
             </h2>
@@ -23,7 +23,7 @@ const CallToActions = () => {
           </div>
           {/* End .col-lg-6 */}
 
-          <div className="col-lg-6" data-aos="fade-left">
+          <div className="col-lg-6">
             <div className="form-bg md-mt-40 ms-lg-4">
               <form onSubmit={handleSubmit}>
                 <div className="d-sm-flex justify-content-between">

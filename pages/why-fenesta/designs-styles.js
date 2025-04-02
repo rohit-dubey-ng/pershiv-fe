@@ -75,7 +75,6 @@ const DesignsStyles = () => {
 			*/}
       <div
         className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
-        data-aos="fade-up"
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">

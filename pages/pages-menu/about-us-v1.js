@@ -46,11 +46,11 @@ const AboutUsV1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-10 m-auto">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper">
                 <h1 className="hero-heading  tx-dark text-center">
                   Transforming Spaces with Preshiv
                   <span className="position-relative">
-                  
+
                     <img
                       src="/images/shape/shape_161.svg"
                       alt="shape"
@@ -59,7 +59,7 @@ const AboutUsV1 = () => {
                   </span>
                 </h1>
                 <p className="text-lg tx-dark mb-80 pt-35 text-center lg-pt-20 lg-mb-50">
-                Where Innovation Meets Elegance!
+                  Where Innovation Meets Elegance!
                 </p>
               </div>
             </div>
@@ -113,7 +113,7 @@ const AboutUsV1 = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7" data-aos="fade-right">
+            <div className="col-lg-7">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
                   More About us.
@@ -126,7 +126,7 @@ const AboutUsV1 = () => {
           </div>
           <div className="row">
             <div className="col-xl-12 col-lg-12">
-              <div className="" data-aos="fade-left">
+              <div className="">
                 <h6 className="mb-30">Our History &amp; Goal.</h6>
                 <p className="text-lg tx-dark text-left"> Welcome to our world of exquisite window and door solutions! Since 2006</p>
                 <p className="text-left">
@@ -141,13 +141,13 @@ const AboutUsV1 = () => {
           </div>
           <div className="row">
             <div className="col-xl-6">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper">
                 <p className="text-lg tx-dark mb-20 pt-35 text-left lg-pt-20 lg-mb-50">Vision</p>
                 <p className="text-left">To Improve the Lives and Homes of customers through Innovation and Excellence and be the brand leader in Customised Building Solutions</p>
               </div>
             </div>
             <div className="col-xl-6">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper">
                 <p className="text-lg tx-dark mb-20 pt-35 text-left lg-pt-20 lg-mb-50">Mission</p>
                 <p className="text-left">To establish a service organisation that passionately provides Customised Building Solutions and delivers Exceptional Customer Experience.</p>
               </div>
@@ -158,12 +158,12 @@ const AboutUsV1 = () => {
       </div>
       {/* /.fancy-feature-fiftyOne */}
 
-    
 
 
-  
 
-   
+
+
+
 
 
       {/*
@@ -173,7 +173,7 @@ const AboutUsV1 = () => {
 			*/}
       <div
         className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
-        data-aos="fade-up"
+
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
@@ -185,7 +185,7 @@ const AboutUsV1 = () => {
           <div className="slider-wrapper">
             <div className="feedback_slider_seven">
               <Testimonial />
-              
+
             </div>
             {/* /.feedback_slider_seven */}
           </div>

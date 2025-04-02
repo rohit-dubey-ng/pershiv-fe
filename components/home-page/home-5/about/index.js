@@ -5,7 +5,7 @@ import Intro from "./Intro";
 const index = () => {
   return (
     <div className="row align-items-center">
-      <div className="col-lg-6 ms-auto order-lg-last" data-aos="fade-left">
+      <div className="col-lg-6 ms-auto order-lg-last">
         <div className="ps-xl-4">
           <Intro />
           <div className="row justify-content-between">

@@ -79,7 +79,6 @@ const PersonalPortfolio = () => {
       <div
         className="portfolio-gallery-one position-relative mt-150 pt-100 xl-pt-50 md-mt-80"
         id="s3"
-        data-aos="fade-up"
       >
         <img
           src="/images/shape/shape_60.svg"
@@ -115,7 +114,6 @@ const PersonalPortfolio = () => {
             <div className="col-lg-5">
               <div
                 className="title-style-five pe-xxl-5 mb-110 lg-mb-70"
-                data-aos="fade-right"
               >
                 <h2 className="main-title font-recoleta fw-500 tx-dark">
                   My
@@ -137,8 +135,6 @@ const PersonalPortfolio = () => {
           <div className="row">
             <div
               className="col-xxl-5 col-lg-6 "
-              data-aos="fade-up"
-              data-aos-delay="200"
             >
               <h3 className="block-title fw-500 tx-dark pb-30 lg-pb-10">
                 Skills
@@ -147,8 +143,6 @@ const PersonalPortfolio = () => {
             </div>
             <div
               className="col-xl-5 col-lg-6 ms-auto "
-              data-aos="fade-up"
-              data-aos-delay="200"
             >
               <h3 className="block-title fw-500 tx-dark pb-20 md-mt-50 md-pb-10">
                 Award
@@ -159,7 +153,7 @@ const PersonalPortfolio = () => {
           {/* End .row */}
 
           <div className="row">
-            <div className="col-lg-3 col-sm-6 " data-aos="fade-up">
+            <div className="col-lg-3 col-sm-6 ">
               <h3 className="block-title fw-500 tx-dark pb-30 mt-150 md-pb-20 md-mt-60">
                 Education
               </h3>
@@ -169,8 +163,6 @@ const PersonalPortfolio = () => {
 
             <div
               className="col-lg-3 col-sm-6 ps-xl-5"
-              data-aos="fade-up"
-              data-aos-delay="200"
             >
               <h3 className="block-title fw-500 tx-dark pb-30 mt-150 md-pb-20 md-mt-60">
                 Tools
@@ -181,8 +173,6 @@ const PersonalPortfolio = () => {
 
             <div
               className="col-lg-6 col-md-7 col-sm-10 m-auto"
-              data-aos="fade-up"
-              data-aos-delay="400"
             >
               <ProjectBanner />
               {/* /.img-meta */}
@@ -237,7 +227,6 @@ const PersonalPortfolio = () => {
         <div className="container">
           <div
             className="title-style-five text-center mb-75 lg-mb-40"
-            data-aos="fade-up"
           >
             <div className="sc-title text-uppercase">TESTIMONIALS</div>
             <h2 className="main-title font-recoleta fw-500 tx-dark">
@@ -290,7 +279,6 @@ const PersonalPortfolio = () => {
           <div className="container">
             <div
               className="innner-content bg-white position-relative"
-              data-aos="fade-up"
             >
               <div className="r-shape-two rounded-circle position-absolute" />
               <div className="row align-items-center">

@@ -39,8 +39,6 @@ const Counter = () => {
             className="col-md-4 col-sm-6"
             key={id}
             ref={ref}
-            data-aos="fadr-up"
-            data-aos-delay={delay}
           >
             <div
               className={`counter-block-four text-center mt-40 wow fadeInUp ${

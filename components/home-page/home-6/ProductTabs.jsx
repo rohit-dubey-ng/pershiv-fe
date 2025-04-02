@@ -43,7 +43,6 @@ const ProductTabs = () => {
       </ul>
       <div
         className="tab-content position-relative mt-120 lg-mt-80"
-        data-aos="fade-up"
       >
         <div className="shapes shape-one rounded-circle" />
         <div className="shapes shape-two rounded-circle" />

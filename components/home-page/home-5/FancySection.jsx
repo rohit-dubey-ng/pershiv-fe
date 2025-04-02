@@ -19,7 +19,7 @@ const FancySection = () => {
       </div>
       {/* /.container */}
 
-      <div className="clip-text" data-aos="fade-right">
+      <div className="clip-text">
         W
       </div>
       <img
@@ -27,7 +27,7 @@ const FancySection = () => {
         alt="shape"
         className="lazy-img shapes shape-one"
       />
-      <a href="#" className="more-btn tran3s" data-aos="fade-left">
+      <a href="#" className="more-btn tran3s">
         <img
           src="/images/shape/shape_167.svg"
           alt="shape"

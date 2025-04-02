@@ -25,8 +25,6 @@ const Property = () => {
         <div
           className="col-lg-4 col-sm-6"
           key={index}
-          data-aos="fade-up"
-          data-aos-delay={property.delay}
         >
           <div className="card-style-twentyOne position-relative mt-35">
             <img

@@ -1,7 +1,7 @@
 const Block = () => {
   return (
     <>
-      <div className="row align-items-end" data-aos="fade-up">
+      <div className="row align-items-end" >
         <div className="col-md-5 col-sm-4">
           <img
             src="/images/shape/shape_136.svg"
@@ -19,7 +19,7 @@ const Block = () => {
       </div>
       {/* End .row */}
 
-      <div className="row gx-xxl-5" data-aos="fade-down">
+      <div className="row gx-xxl-5">
         <div className="col-sm-7 wow fadeInDown">
           <div className="block-wrapper block-two position-relative mt-50 sm-mt-30">
             <h3 style={{ color: "#9650EF" }}>

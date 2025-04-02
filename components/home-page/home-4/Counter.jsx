@@ -47,8 +47,6 @@ const Counter = () => {
     <div
       key={counter.id}
       className="col-lg-3 col-sm-6"
-      data-aos="fade-up"
-      data-aos-delay={counter.delay}
     >
       <div className="counter-block-two position-relative text-center mt-110">
         <div className="main-count fw-500 tx-dark">

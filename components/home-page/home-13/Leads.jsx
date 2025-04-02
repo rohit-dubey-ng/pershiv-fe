@@ -11,8 +11,6 @@ const Leads = () => {
         <div className="col-md-4" key={index}>
           <div
             className="card-style-fourteen text-center mt-30"
-            data-aos="fade-up"
-            data-aos-delay={index * 100}
           >
             <div className="icon">
               <img

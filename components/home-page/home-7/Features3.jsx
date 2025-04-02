@@ -55,7 +55,7 @@ const Features3 = () => {
   ];
 
   return (
-    <div className="wrapper position-relative" data-aos="fade-up">
+    <div className="wrapper position-relative">
       <div className="circle-one rounded-circle position-relative m-auto">
         {blocks.map((block, index) => (
           <div key={index} className={block.className}>

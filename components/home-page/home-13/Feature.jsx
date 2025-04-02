@@ -14,7 +14,6 @@ const Feature = () => {
           <div className="col-lg-6 ms-auto">
             <div
               className="block-style-four ps-xxl-5 ms-xxl-4"
-              data-aos="fade-left"
             >
               <div className="title-style-ten">
                 <div className="sc-title">FEATURES</div>
@@ -48,7 +47,7 @@ const Feature = () => {
         </div>
       </div>{" "}
       {/* /.container */}
-      <div className="illustration-holder" data-aos="fade-right">
+      <div className="illustration-holder">
         <img
           src="/images/media/img_48.png"
           alt="media"

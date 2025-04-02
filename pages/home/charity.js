@@ -73,7 +73,7 @@ const charity = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 m-auto">
-              <div className="title-style-six text-center " data-aos="fade-up">
+              <div className="title-style-six text-center">
                 <div className="sc-title" style={{ color: "#FF8A8A" }}>
                   Featured Causes
                 </div>
@@ -104,7 +104,6 @@ const charity = () => {
       <HowCanHelpBlock />
       <div
         className="fancy-feature-eighteen mt-160 lg-mt-100"
-        data-aos="fade-up"
       >
         <div className="d-sm-flex">
           <CampaignBlock2 />
@@ -124,7 +123,7 @@ const charity = () => {
 
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-5 col-md-6" data-aos="fade-right">
+            <div className="col-lg-5 col-md-6">
               <div className="title-style-six text-center text-md-start">
                 <h2 className="main-title fw-500 tx-dark">
                   Our Dedicated volunteer.
@@ -133,7 +132,6 @@ const charity = () => {
             </div>
             <div
               className="col-lg-7 col-md-6 text-center text-md-end"
-              data-aos="fade-left"
             >
               <a href="#" className="btn-nine border3 fw-500 sm-mt-10">
                 More about team
@@ -149,7 +147,7 @@ const charity = () => {
 
       <div className="fancy-short-banner-six d-lg-flex">
         <div className="block-wrapper left-side d-flex justify-content-center justify-content-lg-end align-items-center">
-          <div className="inner-wrapper" data-aos="fade-right">
+          <div className="inner-wrapper">
             <div className="row">
               <div className="col-xxl-8 col-xl-9 col-lg-10">
                 <div className="title-style-six">
@@ -169,7 +167,7 @@ const charity = () => {
         {/* /.block-wrapper */}
 
         <div className="block-wrapper right-side d-flex justify-content-center justify-content-lg-start align-items-center">
-          <div className="inner-wrapper md-pt-50 md-pb-90" data-aos="fade-left">
+          <div className="inner-wrapper md-pt-50 md-pb-90">
             <div className="row">
               <div className="col-xxl-10 col-lg-11 ms-auto">
                 <h3 className="form-title tx-dark mb-50 lg-mb-30">Join Now!</h3>
@@ -194,7 +192,7 @@ const charity = () => {
         <div className="container">
           <div
             className="title-style-six text-center mb-50 lg-mb-10"
-            data-aos="fade-up"
+            
           >
             <div className="sc-title" style={{ color: "#FF8A8A" }}>
               Our News

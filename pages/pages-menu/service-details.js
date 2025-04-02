@@ -24,7 +24,7 @@ const PortfolioV1 = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7" data-aos="fade-right">
+            <div className="col-lg-7">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
                   Service Details

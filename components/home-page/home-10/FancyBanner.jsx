@@ -4,7 +4,7 @@ const FancyBanner = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-8 col-lg-10 m-auto text-center">
-            <div className="title-style-one" data-aos="fade-up">
+            <div className="title-style-one">
               <h2 className="main-title fw-bold tx-dark m0">
                 Ready to take plan? It’s just a matter of <span>one clike</span>
               </h2>
@@ -12,16 +12,12 @@ const FancyBanner = () => {
             {/* /.title-style-one */}
             <p
               className="text-lg tx-dark pt-40 pb-35 lg-pt-30 lg-pb-20 "
-              data-aos="fade-up"
-              data-aos-delay="100"
             >
               Try it risk free — we don’t charge cancellation fees.
             </p>
             <a
               href="#"
               className="btn-two fs-18 fw-500"
-              data-aos="fade-up"
-              data-aos-delay="200"
             >
               Purchase Now
             </a>

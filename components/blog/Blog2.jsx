@@ -9,8 +9,6 @@ const Blog = () => {
         <div
           className="col-md-6"
           key={post.id}
-          data-aos="fade-up"
-          data-aos-delay={post.delay}
         >
           <article className="blog-meta-three mb-60 lg-mb-40">
             <figure className="post-img m0">

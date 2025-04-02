@@ -131,7 +131,7 @@ const Preshiv = () => {
 			=====================================================
 			*/}
       <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
-        <div className="container" data-aos="fade-up">
+        <div className="container">
           <Banner />
         </div>
 
@@ -155,7 +155,6 @@ const Preshiv = () => {
               <div className="col-lg-6">
                 <div
                   className="title-style-one text-center text-lg-start mb-40 md-mb-20"
-                  data-aos="fade-right"
                 >
                   <h2 className="main-title fw-500 tx-dark m0">
                     Discover all our Services.
@@ -172,7 +171,6 @@ const Preshiv = () => {
               <Link
                 href="/pages-menu/service-v1"
                 className="btn-twentyTwo fw-500 tran3s"
-                data-aos="fade-left"
               >
                 View all Services
               </Link>
@@ -194,7 +192,7 @@ const Preshiv = () => {
 
       <div
         className="feedback-section-eleven position-relative mt-200 pt-100 pb-70 lg-mt-120 lg-pt-70 lg-pb-50"
-        data-aos="fade-up"
+
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
@@ -411,7 +409,7 @@ const Preshiv = () => {
 			*/}
       <div
         className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
-        data-aos="fade-up"
+
       >
         <div className="container">
           <div className="bg-wrapper zn2 bg-white position-relative">
@@ -476,7 +474,6 @@ const Preshiv = () => {
               <div className="col-sm-8">
                 <div
                   className="title-style-one text-center text-sm-start pb-40 lg-pb-20"
-                  data-aos="fade-right"
                 >
                   <h2 className="main-title fw-500 tx-dark m0">Our Blog</h2>
                 </div>
@@ -492,7 +489,6 @@ const Preshiv = () => {
               <Link
                 href="/blog/blog-v2"
                 className="btn-twentyTwo fw-500 tran3s"
-                data-aos="fade-left"
               >
                 Go to Blog
               </Link>
@@ -505,12 +501,12 @@ const Preshiv = () => {
         <div className="container">
           <div className="position-relative pt-200 pb-180 lg-pt-120 md-pb-130">
             <div className="row align-items-center">
-              <div className="col-lg-12" data-aos="fade-right">
+              <div className="col-lg-12">
                 <div className="title-style-eleven md-mb-20">
                   <h2 className="main-title tx-dark">Locate Us</h2>
                 </div>
               </div>
-              {/* <div className="col-lg-4 ms-auto " data-aos="fade-left">
+              {/* <div className="col-lg-4 ms-auto ">
                 <div className="form-group ">
                   <select
                     className="form-select"
@@ -628,13 +624,11 @@ const Preshiv = () => {
           src="/images/assets/ils_13.png"
           alt="illustration"
           className="lazy-img illustration-one"
-          data-aos="fade-left"
         />
         <img
           src="/images/assets/ils_14.png"
           alt="illustration"
           className="lazy-img illustration-two"
-          data-aos="fade-right"
         />
       </div>
       {/* /.footer-style-ten */}

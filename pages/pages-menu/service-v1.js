@@ -40,7 +40,7 @@ const ServiceV1 = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
-            <div className="col-xxl-7 col-lg-6" data-aos="fade-right">
+            <div className="col-xxl-7 col-lg-6">
               <div className="title-style-five mb-45 md-mb-10">
                 <div className="sc-title-two fst-italic position-relative">
                   Our Services
@@ -78,7 +78,6 @@ const ServiceV1 = () => {
             <div className="col-lg-6">
               <div
                 className="block-style-four pe-xxl-5 me-xxl-4 md-mb-70"
-                data-aos="fade-right"
               >
                 <div className="title-style-six">
                   <div className="sc-title-two text-uppercase">WHY US</div>
@@ -126,7 +125,6 @@ const ServiceV1 = () => {
 			*/}
       <div
         className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
-        data-aos="fade-up"
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
@@ -156,7 +154,7 @@ const ServiceV1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
-              <div className="block-style-seven" data-aos="fade-right">
+              <div className="block-style-seven">
                 <div className="title-style-six">
                   <div className="sc-title-two text-uppercase">SOLUTION</div>
                   <h2 className="main-title fw-500 tx-dark">
@@ -178,7 +176,7 @@ const ServiceV1 = () => {
               {/* /.block-style-seven */}
             </div>
             {/* End .col-lg-5 */}
-            <div className="col-lg-6 ms-auto" data-aos="fade-left">
+            <div className="col-lg-6 ms-auto">
               <Faq />
             </div>
           </div>
@@ -213,7 +211,6 @@ const ServiceV1 = () => {
 			*/}
       <div
         className="fancy-short-banner-sixteen mt-130 lg-mt-80"
-        data-aos="fade-up"
       >
         <div className="container">
           <div className="bg-wrapper pt-65 pb-65 lg-pt-40 lg-pb-40">

@@ -14,9 +14,6 @@ const CustomerComplaint = () => {
         <div className="row">
           <div
             className="col-xl-10 m-auto overlay"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-duration="1500"
           >
             <h1>Contact US</h1>
           </div>
@@ -34,7 +31,6 @@ const CustomerComplaint = () => {
           </div> */}
           <div
             className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
-            data-aos="fade-up"
           >
             <div className="container p-0">
               <div className="bg-wrapper zn2 bg-white position-relative">

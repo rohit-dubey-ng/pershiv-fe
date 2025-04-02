@@ -5,7 +5,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="form-style-one" data-aos="fade-up">
+    <div className="form-style-one">
       <form onSubmit={handleSubmit}>
         <div className="messages" />
         <div className="row controls">

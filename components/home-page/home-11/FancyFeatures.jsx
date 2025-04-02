@@ -8,7 +8,7 @@ const FancyFeatures = () => {
   return (
     <div className="row">
       <div className="col-xl-5 col-lg-6 ms-auto order-lg-last">
-        <div className="block-style-one ps-xxl-5" data-aos="fade-left">
+        <div className="block-style-one ps-xxl-5">
           <div className="title-style-one">
             <div className="sc-title">
               Over
@@ -37,7 +37,7 @@ const FancyFeatures = () => {
       </div>
       {/* End .col-xl-5 */}
 
-      <div className="col-lg-6 col-md-10 order-lg-first" data-aos="fade-right">
+      <div className="col-lg-6 col-md-10 order-lg-first">
         <div className="img-meta d-inline-block position-relative md-mt-40">
           <img
             src="/images/media/img_40.png"

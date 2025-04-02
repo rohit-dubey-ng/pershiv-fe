@@ -88,7 +88,6 @@ const Pricing = () => {
       <ul
         className="nav nav-tabs justify-content-center border-0 pricing-nav-one"
         role="tablist"
-        data-aos="fade-up"
       >
         {tabs.map((tab) => (
           <li key={tab.id} className="nav-item" role="presentation">
@@ -108,7 +107,6 @@ const Pricing = () => {
 
       <div
         className="pricing-table-area-one mt-110 lg-mt-60 pe-xxl-4 ps-xxl-4"
-        data-aos="fade-up"
       >
         <div className="tab-content">
           <div className="tab-pane show active" id="month">
