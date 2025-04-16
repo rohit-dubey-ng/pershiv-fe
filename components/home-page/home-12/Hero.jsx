@@ -28,7 +28,6 @@ const Hero = () => {
           <div className="text-wrapper pb-60 position-relative">
             <h1
               className="hero-heading font-recoleta fw-light mb-30 lg-mb-50 pe-xxl-4"
-              data-aos="fade-up"
             >
               <span className="line-one">Design,</span> Products, Brand In-House
               <span className="line-two">development</span> &amp; More.

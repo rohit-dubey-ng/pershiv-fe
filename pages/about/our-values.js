@@ -34,13 +34,13 @@ const OurValues = () => {
         />
       </div>
 
-      <div className="fancy-feature-fiftyOne position-relative mt-100">
+      {/* <div className="fancy-feature-fiftyOne position-relative mt-100">
         <div className="container">
           <div className="row gx-xxl-5 justify-content-center">
             <Value />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="fancy-feature-fiftyOne position-relative mt-100">
         <div className="container">

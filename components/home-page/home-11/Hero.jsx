@@ -26,8 +26,6 @@ const Hero = () => {
       </p>
       <div
         className="subscribe-form m-auto"
-        data-aos="fade-up"
-        data-aos-delay="200"
       >
         <form onSubmit={handleFormSubmit} className="position-relative">
           <input

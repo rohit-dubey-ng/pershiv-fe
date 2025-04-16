@@ -17,7 +17,6 @@ const Counter = ({ data }) => {
   return (
     <div
       className="counter-block-five text-center mt-40"
-      data-aos="fade-up"
       ref={ref}
     >
       <div className="main-count font-recoleta fw-light">

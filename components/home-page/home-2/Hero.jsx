@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="bg-wrapper position-relative pt-200 pb-20 md-pt-150">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-7" data-aos="fade-right">
+            <div className="col-lg-6 col-md-7">
               <Link
                 href="/pages-menu/pricing"
                 className="slogan d-inline-block"
@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
           {/* End .container */}
 
-          <div className="illustration-holder" data-aos="fade-left">
+          <div className="illustration-holder">
             <img
               src="/images/assets/ils_05.svg"
               alt="illustration"

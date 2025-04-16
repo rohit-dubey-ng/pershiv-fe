@@ -26,14 +26,14 @@ const ServiceV2 = () => {
         <div className="container">
           <div className="line-bg-wrapper position-relative pt-200 pb-180 lg-pt-120 md-pb-130">
             <div className="row align-items-center">
-              <div className="col-lg-6" data-aos="fade-right">
+              <div className="col-lg-6" >
                 <div className="title-style-eleven md-mb-20">
                   <h2 className="main-title tx-dark">
                     Service we provide with care.
                   </h2>
                 </div>
               </div>
-              <div className="col-lg-5 ms-auto" data-aos="fade-left">
+              <div className="col-lg-5 ms-auto">
                 <p className="text-lg m0">
                   Inciddnt ut labore et dolor magna aliu. enim ad mim venam,
                   quis nostru labore elit lorem dus amet lorem.
@@ -61,7 +61,6 @@ const ServiceV2 = () => {
         <div className="container">
           <div
             className="title-style-eleven text-center pb-50 lg-pb-20"
-            data-aos="fade-up"
           >
             <h2 className="main-title tx-dark">Quality Services</h2>
           </div>
@@ -84,7 +83,7 @@ const ServiceV2 = () => {
         <div className="container">
           <div className="line-bg-wrapper position-relative zn2 pt-250 pb-180 lg-pt-120 lg-pb-80">
             <div className="row">
-              <div className="col-md-6" data-aos="fade-right">
+              <div className="col-md-6">
                 <div className="title-style-five">
                   <h2 className="main-title fw-500 tx-dark">
                     Check our client lovely words.
@@ -103,7 +102,6 @@ const ServiceV2 = () => {
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
                 <div
                   className="img-holder position-relative mt-25"
-                  data-aos="fade-left"
                 >
                   <img
                     src="/images/media/img_84.jpg"
@@ -154,8 +152,6 @@ const ServiceV2 = () => {
               <div className="col-xl-9 m-auto">
                 <div
                   className="title-style-eleven"
-                  data-aos-delay="100"
-                  data-aos="fade-up"
                 >
                   <h2 className="main-title tx-dark">
                     Have Any Project? <br /> Let’s Talk &amp; Grow your Business
@@ -163,8 +159,6 @@ const ServiceV2 = () => {
                 </div>
                 <p
                   className="text-lg mt-40 mb-55 lg-mt-30 lg-mb-40 "
-                  data-aos-delay="200"
-                  data-aos="fade-up"
                 >
                   We’r ready to help you. Our expert is here, just send a
                   message.
@@ -172,8 +166,6 @@ const ServiceV2 = () => {
                 <Link
                   href="/contact"
                   className="btn-twenty fw-500 tran3s"
-                  data-aos="fade-up"
-                  data-aos-delay="0.3"
                 >
                   Send Message
                 </Link>

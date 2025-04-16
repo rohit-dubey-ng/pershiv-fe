@@ -29,7 +29,7 @@ const AgencyModern = () => {
         ============================================== 
         */}
       <div className="hero-banner-one p-30">
-        <div className="bg-wrapper" data-aos="fade">
+        <div className="bg-wrapper">
           <Hero />
           {/* /.container */}
           <img
@@ -49,7 +49,7 @@ const AgencyModern = () => {
       <div className="fancy-feature-one pt-170 lg-pt-140">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6" data-aos="fade-right">
+            <div className="col-lg-6">
               <div className="title-style-one text-center text-lg-start">
                 <h2 className="main-title fw-bold tx-dark m0">
                   Provide <span>Quality</span> Services.
@@ -57,7 +57,7 @@ const AgencyModern = () => {
               </div>
               {/* /.title-style-one */}
             </div>
-            <div className="col-lg-5 ms-auto" data-aos="fade-left">
+            <div className="col-lg-5 ms-auto">
               <p className="text-lg text-center text-lg-start md-pt-30 m0">
                 Jano provides alternative asset management solutions to a global
                 client base and manages a significant.
@@ -96,7 +96,6 @@ const AgencyModern = () => {
 			*/}
       <div
         className="feedback-section-one position-relative p-30 mt-200 lg-mt-130 "
-        data-aos="fade-up"
       >
         <div className="bg-wrapper position-relative pt-150 pb-180 lg-pt-100 lg-pb-120">
           <img

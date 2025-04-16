@@ -8,8 +8,6 @@ const Blog3 = () => {
         <div
           className="col-md-6 d-flex"
           key={post.id}
-          data-aos="fade-up"
-          data-aos-delay={post.delay}
         >
           <article
             className="blog-meta-five d-flex flex-column position-relative tran3s mb-60 lg-mb-50 wow fadeInUp"

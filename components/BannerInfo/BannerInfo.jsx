@@ -8,10 +8,7 @@ const BannerInfo = () => {
       <div className="container">
         <div className="row">
           <div
-            className="col-xl-6"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-duration="1500"         >
+            className="col-xl-6"        >
             <div className="banner-infoimage">
               <Image
                 width={600}

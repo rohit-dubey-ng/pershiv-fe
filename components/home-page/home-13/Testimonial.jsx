@@ -65,7 +65,6 @@ const Testimonial = () => {
     <>
       <div
         className="slider-wrapper feedback_slider_ten pt-70 lg-pt-40"
-        data-aos="fade-up"
       >
         <Slider {...settings} arrows={false} ref={sliderRef}>
           {testimonialData.map((testimonial) => (

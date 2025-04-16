@@ -120,7 +120,7 @@ const PortfolioV1 = () => {
         </div>
       </div>
 
-      <div className="blog-section-one p-30 mt-180 lg-mt-120">
+      {/* <div className="blog-section-one p-30 mt-180 lg-mt-120">
         <div className="text-center">
           <h3>Explore Our Range</h3>
           <p>
@@ -307,7 +307,7 @@ const PortfolioV1 = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="QualityDetails mt-180">
         <div className="container">

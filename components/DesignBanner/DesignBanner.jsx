@@ -9,7 +9,7 @@ const DesignBanner = () => {
             className="col-xl-10 m-auto overlay"
            
           >
-            <h1 className="w-75 mx-auto">Windows that Reflect your Style and Personality
+            <h1 className="w-75 mx-auto redefining_wrp">Windows that Reflect your Style and Personality
             </h1>
           </div>
         </div>

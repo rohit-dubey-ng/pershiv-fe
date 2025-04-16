@@ -58,7 +58,6 @@ const LeadGeneration = () => {
             <div className="col-xl-8 col-lg-9 m-auto">
               <div
                 className="title-style-ten text-center pb-40 lg-pb-20"
-                data-aos="fade-up"
               >
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
                   Get
@@ -131,7 +130,7 @@ const LeadGeneration = () => {
       <div className="feedback-section-nine position-relative mt-200 lg-mt-120">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-7 ms-lg-auto" data-aos="fade-left">
+            <div className="col-lg-6 col-md-7 ms-lg-auto">
               <div className="title-style-ten">
                 <div className="sc-title">SUCCESS STORIES</div>
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
@@ -165,7 +164,6 @@ const LeadGeneration = () => {
               <div className="col-lg-5">
                 <div
                   className="title-style-ten text-center text-lg-start"
-                  data-aos="fade-right"
                 >
                   <div className="sc-title">FEEDBACK</div>
                   <h2 className="main-title font-recoleta fw-normal tx-dark">
@@ -206,7 +204,7 @@ const LeadGeneration = () => {
 			*/}
       <div className="fancy-feature-thirtyThree mt-180 lg-mt-120">
         <div className="container">
-          <div className="title-style-ten text-center" data-aos="fade-up">
+          <div className="title-style-ten text-center">
             <div className="sc-title">FAQ</div>
             <h2 className="main-title font-recoleta fw-normal tx-dark">
               Questions &amp;
@@ -219,7 +217,6 @@ const LeadGeneration = () => {
 
           <div
             className="bg-wrapper position-relative mt-80 lg-mt-40"
-            data-aos="fade-up"
           >
             <Faq />
             <img
@@ -242,7 +239,7 @@ const LeadGeneration = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-8 m-auto text-center">
-              <div className="title-style-ten" data-aos="fade-up">
+              <div className="title-style-ten">
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
                   Have Any Project? <br />
                   <span className="position-relative">
@@ -254,16 +251,12 @@ const LeadGeneration = () => {
               {/* /.title-style-ten */}
               <p
                 className="text-lg mt-45 mb-55 lg-mb-30 lg-mt-40"
-                data-aos="fade-up"
-                data-aos-delay="200"
               >
                 We’r ready to help you. Our expert is here, just send a message.
               </p>
               <Link
                 href="/contact"
                 className="btn-twenty fw-500 tran3s wow fadeInUp"
-                data-aos-delay="300"
-                data-aos="fade-up"
               >
                 Send Message
               </Link>

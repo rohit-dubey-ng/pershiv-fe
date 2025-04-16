@@ -10,7 +10,7 @@ const Gallery = () => {
     <>
     <DefaulHeader/>
       <div className="ShowcasePage">
-        <div className="container aos-init aos-animate" data-aos="fade-up">
+        <div className="container">
           <div className="top-banner text-center">
             <h2 className="tx-dark mb-20">Gallery</h2>
             <p className="mb-5">Take a look at what we make, browse through our gallery, view Fenesta in real settings and find your inspiration. 

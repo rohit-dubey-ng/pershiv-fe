@@ -21,7 +21,7 @@ const Features2 = () => {
   ];
 
   return (
-    <div className="block-style-three" data-aos="fade-right">
+    <div className="block-style-three">
       <div className="title-style-four">
         <h2 className="main-title fw-500 tx-dark m0">
           Grow your business by using our <span>apps.</span>

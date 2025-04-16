@@ -105,7 +105,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div data-aos="fade-up">
+    <div>
       <ul
         className="nav nav-tabs justify-content-center border-0 pricing-nav-three wow fadeInUp"
         role="tablist"

@@ -57,8 +57,6 @@ const OurAim = () => {
         {aimItems.map((item, index) => (
           <div
             className="block-style-one pt-35"
-            data-aos="fade-left"
-            key={index}
           >
             <div className="title-style-one">
               <div className="sc-title text-uppercase">{item.title}</div>
@@ -76,14 +74,13 @@ const OurAim = () => {
         <Link
           href="/pages-menu/about-us-v1"
           className="more-btn tran3s fw-500 fs-18"
-          data-aos="fade-left"
         >
           Discover More <i className="bi bi-arrow-right"></i>
         </Link>
       </div>
       {/* End .col */}
 
-      <div className="col-md-6 order-md-first " data-aos="fade-right">
+      <div className="col-md-6 order-md-first ">
         <div className="img-meta d-inline-block position-relative ps-3 ps-lg-5 pb-50 md-mt-50 sm-mt-80">
           {imageItems.map((item, index) => (
             <img
@@ -94,7 +91,7 @@ const OurAim = () => {
             />
           ))}
 
-          <div className="card-one" data-aos="fade-up" data-aos-delay="200">
+          <div className="card-one">
             <div className="icon d-flex align-items-center justify-content-center rounded-circle">
               <img src={cardItem.imgSrc} alt="shape" className="lazy-img" />
             </div>

@@ -16,7 +16,7 @@ const ImgGallery = () => {
       />
 
       <div className="img-gallery md-mt-60 ">
-        <div className="row align-items-center" data-aos="fade-right">
+        <div className="row align-items-center">
           <div className="col-6">
             <Image
               width={256}

@@ -12,7 +12,7 @@ const reasons = [
 
 const WhyChooseList = () => {
   return (
-    <div className="block-style-five pe-xl-5 me-xxl-5" data-aos="fade-right">
+    <div className="block-style-five pe-xl-5 me-xxl-5">
       <div className="title-style-nine pb-20">
         <div className="sc-title">Why Choose us</div>
         <h2 className="main-title text-white">

@@ -45,7 +45,7 @@ const IntroAbout = () => {
               className="lazy-img cursor-pointer"
               onClick={() => setOpen(true)}
             />
-            {/* <p className="tx-dark pt-30 pb-30 md-pb-15" data-aos="fade-up">
+            {/* <p className="tx-dark pt-30 pb-30 md-pb-15">
               The team signed <span className="fw-500">~$7,000,000</span> in new
               business in July. Accelerator has been a large part of that.
             </p> */}

@@ -58,7 +58,6 @@ const WebHosting = () => {
               <div className="col-xxl-10 col-md-9 m-auto">
                 <div
                   className="title-style-seven text-center"
-                  data-aos="fade-up"
                 >
                   <h2 className="main-title fw-bold tx-dark">
                     Solo, Agency or Team? We’ve got you
@@ -82,7 +81,7 @@ const WebHosting = () => {
           {/* /.pricing-table-area-four */}
 
           <div className="container">
-            <div className="text-center mt-100 lg-mt-50 " data-aos="fade-up">
+            <div className="text-center mt-100 lg-mt-50 ">
               <div className="d-inline-block consult-text fs-18 fw-500 tx-dark">
                 Not sure which website hosting plan is right for you? We can
                 help.
@@ -104,7 +103,6 @@ const WebHosting = () => {
           <div className="container">
             <div
               className="title-style-seven text-center pb-20"
-              data-aos="fade-up"
             >
               <h2 className="main-title fw-bold tx-dark">
                 All Included
@@ -157,7 +155,7 @@ const WebHosting = () => {
 			=====================================================*/}
         <div
           className="feedback-section-six p-30 mt-170 lg-mt-100 "
-          data-aos="fade-up"
+          
         >
           <div className="bg-wrapper position-relative pt-100 pb-110 lg-pt-60 lg-pb-50">
             <div className="container">
@@ -195,10 +193,10 @@ const WebHosting = () => {
         <div className="fancy-feature-twentyFive mt-170 lg-mt-100">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-xl-9 m-auto" data-aos="fade-up">
+              <div className="col-xl-9 m-auto" >
                 <div
                   className="title-style-seven text-center pb-120 lg-pb-50"
-                  data-aos="fade-up"
+                  
                 >
                   <h2 className="main-title fw-bold tx-dark">
                     Got questions? <br /> Well, we&lsquo;ve got
@@ -209,7 +207,7 @@ const WebHosting = () => {
                 </div>
                 {/* /.title-style-seven */}
               </div>
-              <div className="col-xl-9 col-lg-10 m-auto " data-aos="fade-up">
+              <div className="col-xl-9 col-lg-10 m-auto " >
                 <Faq />
 
                 <div className="text-center  mt-80 lg-mt-50">
@@ -236,7 +234,7 @@ const WebHosting = () => {
 			*/}
         <div
           className="fancy-short-banner-ten position-relative mt-225 lg-mt-100"
-          data-aos="fade-up"
+          
         >
           <div className="container">
             <div className="bg-wrapper position-relative pt-50 pb-65 lg-pt-40 lg-pb-50">

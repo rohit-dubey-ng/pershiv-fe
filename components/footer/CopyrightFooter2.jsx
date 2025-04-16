@@ -72,9 +72,9 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ib-themes
+               Pershiv 
               </a>
-              inc.
+              
             </p>
           </div>
         </div>

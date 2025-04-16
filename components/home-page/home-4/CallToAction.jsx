@@ -9,7 +9,7 @@ const CallToAction = () => {
       <div className="container">
         <div className="row">
           <div className="col-xxl-7 col-lg-8 m-auto text-center">
-            <div className="title-style-four wow fadeInUp" data-aos="fade-up">
+            <div className="title-style-four wow fadeInUp">
               <h2 className="main-title fw-500 text-white m0">
                 Get updated by subscribe to our newsletter
               </h2>

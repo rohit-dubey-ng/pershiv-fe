@@ -32,8 +32,6 @@ const Counter = () => {
         <div className="col-lg-4 col-sm-6" key={index}>
           <div
             className="counter-block-three text-center mt-40"
-            data-aos="fade-up"
-            data-aos-delay={counter.delay}
           >
             <InView>
               {({ inView, ref }) => (

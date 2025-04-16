@@ -23,8 +23,6 @@ const Block = () => {
         <div
           key={index}
           className="col-md-4 "
-          data-aos="fade-up"
-          data-aos-delay={index * 100}
         >
           <div
             className="card-style-six md-mt-30 text-center"

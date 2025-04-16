@@ -27,8 +27,6 @@ const Blog = () => {
           <article
             className="blog-meta-four tran3s mt-40"
             style={{ backgroundImage: post.image }}
-            data-aos="fade-up"
-            data-aos-delay={index * 100 + 100}
           >
             <div className="logo">
               <img src={post.logo} alt="logo" className="lazy-img" />

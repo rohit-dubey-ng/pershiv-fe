@@ -20,7 +20,7 @@ const DynamicPortfolioDetails = () => {
     if (!id) <h1>Loading...</h1>;
     else setPortfolio(portfolioData.find((item) => item.id == id));
 
-    return () => {};
+    return () => { };
   }, [id]);
 
   return (
@@ -49,13 +49,13 @@ const DynamicPortfolioDetails = () => {
         <div className="project-desctiption">
           <div className="container">
             <div className="row">
-              <div className="col-lg-8" data-aos="fade-right">
+              <div className="col-lg-8">
                 <ProjectSlide slide={portfolio} />
                 {/* /#gallery-carousel */}
               </div>
               {/* End .col-lg-8 */}
 
-              <div className="col-lg-4" data-aos="fade-left">
+              <div className="col-lg-4">
                 <div className="sidebar ms-xl-5">
                   <h3 className="mb-20">About</h3>
                   <p className="border-bottom pb-40 mb-35 lg-pb-20">
@@ -76,7 +76,6 @@ const DynamicPortfolioDetails = () => {
             <div className="col-xl-9  mt-120 lg-mt-80">
               <div
                 className="title-style-twelve mb-45 lg-mb-30 wow fadeInUp"
-                data-aos="fade-up"
               >
                 <div className="sc-title fst-italic position-relative">
                   Overview
@@ -84,7 +83,7 @@ const DynamicPortfolioDetails = () => {
                 <h2 className="main-title fw-500 tx-dark">About Rodpen</h2>
               </div>
               {/* /.title-style-twelve */}
-              <p data-aos="fade-up">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullaum laboris
@@ -92,7 +91,7 @@ const DynamicPortfolioDetails = () => {
                 in reprehenderit volupta velit esse cillum dolore eu fugiat
                 nulla pariatur.
               </p>
-              <p data-aos="fade-up">
+              <p>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia deserunt mollit anim id est laborum magna quis
                 nostured.
@@ -101,7 +100,7 @@ const DynamicPortfolioDetails = () => {
                 <div className="col-xl-8">
                   <div
                     className="title-style-twelve mb-45 pt-75 lg-pt-40 lg-mb-30 wow fadeInUp"
-                    data-aos="fade-up"
+
                   >
                     <div className="sc-title fst-italic position-relative">
                       Work Proccess
@@ -113,11 +112,11 @@ const DynamicPortfolioDetails = () => {
                   {/* /.title-style-twelve */}
                 </div>
               </div>
-              <p data-aos="fade-up">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <p data-aos="fade-up">
+              <p>
                 Enim eu turpis egestas pretium aenean pharetra. Dui accumsan sit
                 amet nulla facilisi morbi tempus iaculis. Eu ultrices vitae
                 auctor eu augue. Sed turpis tincidunt id aliquet risus Purus in
@@ -131,7 +130,7 @@ const DynamicPortfolioDetails = () => {
 
               <div
                 className="title-style-twelve mb-45 mt-120 lg-mb-30 lg-mt-80 wow fadeInUp"
-                data-aos="fade-up"
+
               >
                 <div className="sc-title fst-italic position-relative">
                   Work Proccess
@@ -140,13 +139,13 @@ const DynamicPortfolioDetails = () => {
               </div>
               {/* /.title-style-twelve */}
 
-              <p data-aos="fade-up">
+              <p>
                 Content creators and human resources personnel are able to
                 seamlessly update the website through graphical interfaces, and
                 the site simply rebuilds itself along with search engine indexes
                 as the OpenWeb team continues to create.
               </p>
-              <p data-aos="fade-up">
+              <p>
                 Enim eu turpis egestas pretium aenean pharetra. Dui accumsan sit
                 amet nulla facilisi mor tempu iaculis. Eu ultrices vitae auctor
                 eu augue. Sed turpis tincidunt id aliquet risus Purus in massa

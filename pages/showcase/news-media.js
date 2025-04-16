@@ -13,7 +13,7 @@ const NewsMedia = () => {
       <DefaulHeader />
       <div className="news-media-page">
         <div>
-          <div className="container aos-init aos-animate" data-aos="fade-up">
+          <div className="container">
             <div className="top-banner text-center">
               <h2 className="tx-dark mb-20">Press Coverage</h2>
               <p className="mb-5">We are proud to have been featured in several leading publications of the country.
@@ -26,8 +26,6 @@ const NewsMedia = () => {
                 <div
                   key={index}
                   className="col-lg-4 col-sm-6"
-                  data-aos="fade-up"
-                  data-aos-delay={post.delay}
                 >
                   <article className="blog-meta-three mt-40 wow fadeInUp">
                     <figure className="post-img m0">
@@ -66,7 +64,7 @@ const NewsMedia = () => {
           </div>
         </div>
         <div className="mt-100">
-          <div className="container aos-init aos-animate" data-aos="fade-up">
+          <div className="container">
             <div className="top-banner text-center">
               <h2 className="tx-dark mb-20">Advertisement Centre</h2>
               <p className="mb-5">Fenesta regularly invests in smart marketing campaigns to build market share and leadership. Here's a collection of our past advertising campaigns.</p>
@@ -78,8 +76,6 @@ const NewsMedia = () => {
                 <div
                   key={index}
                   className="col-lg-4 col-sm-6"
-                  data-aos="fade-up"
-                  data-aos-delay={post.delay}
                 >
                   <article className="blog-meta-three mt-40 wow fadeInUp">
                     <figure className="post-img m0">

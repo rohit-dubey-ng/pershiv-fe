@@ -11,7 +11,6 @@ const FancyBanner = () => {
       illustration: "/images/assets/ils_06.png",
       illustrationAlt: "illustration",
       illustrationPosition: "right",
-      aos: "fade-right",
     },
     {
       title: "SITE TRANSFER",
@@ -22,7 +21,6 @@ const FancyBanner = () => {
       illustration: "/images/assets/ils_07.png",
       illustrationAlt: "illustration",
       illustrationPosition: "left",
-      aos: "fade-left",
     },
   ];
 
@@ -36,7 +34,6 @@ const FancyBanner = () => {
                 className={`col-xl-5 col-lg-6 order-lg-${
                   data.illustrationPosition === "left" ? "first" : "last"
                 }`}
-                data-aos={data.aos}
               >
                 <div className="title-style-eight">
                   <div className="sc-title text-uppercase">{data.title}</div>
@@ -63,7 +60,6 @@ const FancyBanner = () => {
                 className={`col-xl-7 col-lg-6 col-md-8 m-auto order-lg-${
                   data.illustrationPosition === "left" ? "last" : "first"
                 }`}
-                data-aos={data.aos}
               >
                 <div className="illustration-holder md-mt-60">
                   <img

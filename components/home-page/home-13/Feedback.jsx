@@ -35,7 +35,6 @@ const Feedback = () => {
   return (
     <div
       className="feedback-section-eight position-relative pt-200 pb-30 lg-pt-120 "
-      data-aos="fade-up"
     >
       <div className="container">
         <img

@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-10 m-auto">
-            <div className="text-wrapper" data-aos="fade-up">
+            <div className="text-wrapper">
               <h1 className="hero-heading fw-500 tx-dark text-center">
                 Discover your <br /> home, you&lsquo;ll love to
                 <span className="position-relative">
@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
         {/* /.row */}
 
-        <div className="search-form-bg position-relative" data-aos="fade-up">
+        <div className="search-form-bg position-relative">
           <FilterBox />
           {/* /.search-area */}
 

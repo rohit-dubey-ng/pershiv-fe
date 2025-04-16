@@ -9,8 +9,6 @@ const Blog = () => {
         <article
           className={`blog-meta-three mb-80 lg-mb-40 ${blog.className}`}
           key={blog.id}
-          data-aos="fade-up"
-          data-aos-delay={blog.delay}
         >
           {blog.imageSrc && (
             <figure className="post-img m0">

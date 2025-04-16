@@ -28,8 +28,6 @@ const FancyBlock = () => {
         <div
           key={index}
           className="col-lg-4 col-md-6 d-flex"
-          data-aos="fade-up"
-          data-aos-delay={card.delay}
         >
           <div className={`card-style-eleven d-flex w-100 mt-85 lg-mt-40`}>
             <div className="icon d-flex align-items-center justify-content-center position-relative rounded-circle">

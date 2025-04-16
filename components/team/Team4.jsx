@@ -57,8 +57,6 @@ const Team4 = () => {
       {teamData.map((teamMember, index) => (
         <div
           className="col-md-3 col-sm-6"
-          data-aos="fade-up"
-          data-aos-delay={100 * (index + 1)}
           key={index}
         >
           <div className="team-block-three position-relative mt-40 ">

@@ -30,8 +30,6 @@ const Counter = () => {
         <div
           className={item.colClass}
           key={index}
-          data-aos="fade-up"
-          data-aos-delay={item.delay}
         >
           <div className="counter-block-three mt-40 md-mt-30" ref={ref}>
             <div className="main-count fw-500 tx-dark">

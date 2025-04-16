@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     <div className="row align-items-center">
-      <div className="col-lg-5" data-aos="fade-right">
+      <div className="col-lg-5">
         <img src={contentData.imgSrc} alt="img" className="lazy-img" />
         <div className="title-style-one mt-35 mb-30">
           <h2 className="main-title fw-normal tx-dark m0">
@@ -31,7 +31,7 @@ const Contact = () => {
 
       {/* End .col-lg-5 */}
 
-      <div className="col-xl-5 col-lg-6 ms-auto" data-aos="fade-left">
+      <div className="col-xl-5 col-lg-6 ms-auto">
         <div className="form-bg-wrapper position-relative rounded bg-white pe-4 ps-4 pe-lg-5 ps-lg-5 pt-60 pb-50 md-mt-60">
           <div className="form-style-two">
             <Form />

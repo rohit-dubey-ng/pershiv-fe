@@ -10,7 +10,6 @@ const HowCanHelpBlock = () => {
         <div className="row align-items-center">
           <div
             className="col-xl-5 col-lg-6 ms-auto order-lg-last"
-            data-aos="fade-left"
           >
             <div className="title-style-six">
               <div className="sc-title" style={{ color: "#4BCEB0" }}>
@@ -30,7 +29,7 @@ const HowCanHelpBlock = () => {
           </div>
           {/* End .col */}
 
-          <div className="col-lg-6 order-lg-first" data-aos="fade-right">
+          <div className="col-lg-6 order-lg-first">
             <div className="img-meta d-inline-block position-relative">
               <img
                 src="/images/media/img_34.png"

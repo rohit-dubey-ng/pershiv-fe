@@ -23,7 +23,7 @@ const Faq = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7 text-center m-auto" data-aos="fade-up">
+            <div className="col-lg-7 text-center m-auto">
               <div className="title-style-five">
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
                   FAQ
@@ -47,7 +47,7 @@ const Faq = () => {
       <div className="fancy-feature-thirtyThree mt-100 lg-mt-80">
         <div className="container">
           <div className="border-bottom pb-100 lg-pb-70">
-            <div className="bg-wrapper position-relative" data-aos="fade-up">
+            <div className="bg-wrapper position-relative">
               <FaqAccordion />
               <img
                 src="/images/shape/shape_133.svg"
@@ -57,7 +57,7 @@ const Faq = () => {
             </div>
             {/* /.bg-wrapper */}
 
-            <div className="text-center  mt-80 lg-mt-50" data-aos="fade-up">
+            <div className="text-center  mt-80 lg-mt-50">
               <h3 className="fw-bold tx-dark mb-30">Didn’t get your answer?</h3>
               <Link href="/contact" className="btn-twentyOne fw-500 tran3s">
                 Contact us

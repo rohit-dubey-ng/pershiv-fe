@@ -119,7 +119,6 @@ const CourseFilter = () => {
       <ul
         className="nav nav-tabs border-0 mb-130 lg-mb-80 md-mb-30"
         role="tablist"
-        data-aos="fade-up"
       >
         <ul className="style-none text-center isotop-menu-wrapper d-flex flex-wrap">
           <li className="nav-item">
@@ -187,7 +186,6 @@ const CourseFilter = () => {
       <div className="slider-wrapper">
         <div
           className="tab-content position-relative zn2 course_slider_one"
-          data-aos="fade-up"
         >
           <Slider {...settings} arrows={false}>
             {filteredItems.map((course) => (

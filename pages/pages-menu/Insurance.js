@@ -17,7 +17,7 @@ import Gallery from "../../components/gallery/Gallery";
 import Partner from "../../components/home-page/home-1/Partner";
 import Property from "../../components/home-page/home-1/Property";
 import Quote from "../../components/home-page/home-1/Quote";
- 
+
 
 const Insurance = () => {
   const services = [
@@ -44,7 +44,7 @@ const Insurance = () => {
   ];
   return (
     <>
-  
+
       <Seo pageTitle="Insurance" />
       {/* <!-- 
       =============================================
@@ -313,7 +313,7 @@ const Insurance = () => {
               <div className="col-lg-4 ms-auto ">
                 <div className="form-group ">
                   <select className="form-select" aria-label="Default select example">
-                  <option selected>Select Branch</option>
+                    <option selected>Select Branch</option>
                     <option value="Surat">Surat</option>
                     <option value="Ahmedabad">Ahmedabad</option>
                     <option value="Vadodara">Vadodara</option>

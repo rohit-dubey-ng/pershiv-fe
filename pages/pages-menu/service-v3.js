@@ -30,7 +30,6 @@ const ServiceV3 = () => {
             <div className="col-xl-8 col-lg-9 m-auto">
               <div
                 className="title-style-ten text-center pb-40 lg-pb-20"
-                data-aos="fade-up"
               >
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
                   Get
@@ -80,7 +79,7 @@ const ServiceV3 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
-              <div className="block-style-seven" data-aos="fade-right">
+              <div className="block-style-seven">
                 <div className="title-style-six">
                   <div className="sc-title-two text-uppercase">SOLUTION</div>
                   <h2 className="main-title fw-500 tx-dark">
@@ -102,7 +101,7 @@ const ServiceV3 = () => {
               {/* /.block-style-seven */}
             </div>
             {/* End .col-lg-5 */}
-            <div className="col-lg-6 ms-auto" data-aos="fade-left">
+            <div className="col-lg-6 ms-auto">
               <Faq />
             </div>
           </div>
@@ -126,7 +125,6 @@ const ServiceV3 = () => {
               <div className="col-lg-5">
                 <div
                   className="title-style-ten text-center text-lg-start"
-                  data-aos="fade-right"
                 >
                   <div className="sc-title">FEEDBACK</div>
                   <h2 className="main-title font-recoleta fw-normal tx-dark">
@@ -169,7 +167,7 @@ const ServiceV3 = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-8 m-auto text-center">
-              <div className="title-style-ten" data-aos="fade-up">
+              <div className="title-style-ten">
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
                   Have Any Project? <br />
                   <span className="position-relative">
@@ -182,16 +180,12 @@ const ServiceV3 = () => {
               {/* /.title-style-ten */}
               <p
                 className="text-lg mt-45 mb-55 lg-mb-30 lg-mt-40"
-                data-aos="fade-up"
-                data-aos-delay="200"
               >
                 We’r ready to help you. Our expert is here, just send a message.
               </p>
               <Link
                 href="/contact"
                 className="btn-twenty fw-500 tran3s wow fadeInUp"
-                data-aos-delay="300"
-                data-aos="fade-up"
               >
                 Send Message
               </Link>

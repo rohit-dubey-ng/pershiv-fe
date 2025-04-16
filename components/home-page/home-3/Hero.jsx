@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <div className="text-wrapper" data-aos="fade-right">
+            <div className="text-wrapper">
               <h1 className="hero-heading fw-500 tx-dark">
                 Start learning from our top experts.
               </h1>
@@ -38,7 +38,6 @@ const Hero = () => {
 
           <div
             className="col-xxl-6 col-xl-5 col-md-6 ms-auto text-end"
-            data-aos="fade-left"
           >
             <div className="image-holder zn2 d-inline-block position-relative sm-mt-60">
               <img
@@ -59,8 +58,7 @@ const Hero = () => {
 
               <div
                 className="card-style card-one d-flex flex-column justify-content-center align-items-center"
-                data-aos="fade-right"
-                data-aos-delay="100"
+
               >
                 <h4>120k+</h4>
                 <p>Online Videos</p>
@@ -69,8 +67,6 @@ const Hero = () => {
 
               <div
                 className="card-style card-two d-flex flex-column justify-content-center align-items-center"
-                data-aos="fade-left"
-                data-aos-delay="100"
               >
                 <h4>200+</h4>
                 <p>Categories</p>
@@ -79,8 +75,6 @@ const Hero = () => {
 
               <div
                 className="card-style card-three d-flex flex-column justify-content-center align-items-center"
-                data-aos="fade-left"
-                data-aos-delay="300"
               >
                 <h5>80k+ Students</h5>
                 <div className="avatar d-flex align-items-center">

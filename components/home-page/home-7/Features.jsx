@@ -51,8 +51,6 @@ const Features = () => {
         <div
           key={feature.id}
           className="col-lg-4 col-md-6"
-          data-aos="fade-up"
-          data-aos-delay={feature.id * 100}
         >
           <FeatureCard
             icon={feature.icon}

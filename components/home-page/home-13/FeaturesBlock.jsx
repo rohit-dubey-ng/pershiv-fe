@@ -4,7 +4,7 @@ const FeaturesBlock = () => {
   return (
     <>
       <div className="col-lg-5 col-md-10">
-        <div className="block-style-six pe-xxl-5" data-aos="fade-right">
+        <div className="block-style-six pe-xxl-5">
           <div className="title-style-ten">
             <div className="sc-title">WHY CHOOSE US</div>
             <h2 className="main-title font-recoleta fw-normal tx-dark">

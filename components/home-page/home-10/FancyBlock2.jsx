@@ -26,8 +26,6 @@ const FancyBlock2 = () => {
         <div
           key={index}
           className="col-lg-3 col-md-4 col-sm-6"
-          data-aos="fade-up"
-          data-aos-delay={card.delay}
         >
           <div className="card-style-two mt-40">
             <div className="icon d-flex align-items-end">

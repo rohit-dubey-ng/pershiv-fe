@@ -38,8 +38,6 @@ const Services = () => {
         <div
           key={index}
           className={`col-lg-3 col-sm-6`}
-          data-aos="fade-up"
-          data-aos-delay={`${index * 100}`}
         >
           <div className="card-style-one pe-xxl-5 position-relative mt-40">
             <div

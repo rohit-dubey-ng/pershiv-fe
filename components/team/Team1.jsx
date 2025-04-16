@@ -58,8 +58,6 @@ const Team1 = () => {
         <div
           key={member.id}
           className="col-lg-3 col-sm-6"
-          data-aos="fade-up"
-          data-aos-delay={`${member.id * 100}`}
         >
           <div className="team-block-two mt-40">
             <div className="img-meta position-relative">

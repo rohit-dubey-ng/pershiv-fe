@@ -55,8 +55,6 @@ const IncludedPlan = () => {
         <div
           className="col-lg-4 col-sm-6 d-flex"
           key={card.id}
-          data-aos="fade-up"
-          data-aos-delay={card.delayAnim}
         >
           <div className="card-style-eleven text-center text-lg-start w-100 mt-110 lg-mt-50 xs-mt-40">
             <div className="icon d-flex align-items-center justify-content-center position-relative rounded-circle">

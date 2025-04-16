@@ -38,7 +38,6 @@ const crypto = () => {
         */}
       <div
         className="hero-banner-eight position-relative pt-225 md-pt-150"
-        data-aos="fade-right"
       >
         <div className="container">
           <div className="row">
@@ -49,7 +48,7 @@ const crypto = () => {
         </div>
         {/* /.container */}
 
-        <div className="illustration-holder" data-aos="fade-right">
+        <div className="illustration-holder">
           <Image
             width={697}
             height={664}
@@ -119,7 +118,6 @@ const crypto = () => {
             </div>
             <div
               className="col-lg-6 col-md-8 m-auto order-lg-first"
-              data-aos="fade-right"
             >
               <div className="illustration-holder md-mt-50 pe-xxl-1 pe-xl-5 pe-lg-4">
                 <Image
@@ -138,7 +136,7 @@ const crypto = () => {
         {/* /.container */}
 
         <div className="container">
-          <div className="wrapper mt-130 lg-mt-100" data-aos="fade-up">
+          <div className="wrapper mt-130 lg-mt-100">
             <div className="row">
               <Block3 />
             </div>
@@ -160,7 +158,7 @@ const crypto = () => {
               <WhyChooseList />
               {/* /.block-style-five */}
             </div>
-            <div className="col-lg-6 col-md-8 m-auto" data-aos="fade-left">
+            <div className="col-lg-6 col-md-8 m-auto">
               <div className="illustration-holder md-mt-50 position-relative">
                 <img
                   src="/images/shape/shape_106.svg"
@@ -199,7 +197,6 @@ const crypto = () => {
         */}
       <div
         className="feedback-section-seven position-relative zn2 mt-200 lg-mt-100"
-        data-aos="fade-up"
       >
         <div className="container">
           <div className="title-style-nine text-center pb-80 lg-pb-50">
@@ -233,7 +230,7 @@ const crypto = () => {
       <div className="fancy-feature-twentyNine position-relative zn2 mt-180 pb-180 lg-mt-110 lg-pb-120">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5" data-aos="fade-right">
+            <div className="col-lg-5">
               <div className="title-style-nine">
                 <h2 className="main-title text-white">
                   Any <span>Questions?</span> Find here.
@@ -249,7 +246,7 @@ const crypto = () => {
               </Link>
             </div>
             {/* End .col */}
-            <div className="col-xxl-6 col-lg-7 ms-auto" data-aos="fade-left">
+            <div className="col-xxl-6 col-lg-7 ms-auto">
               <Faq />
             </div>
             {/* End .col */}

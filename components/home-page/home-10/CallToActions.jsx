@@ -5,7 +5,7 @@ const CallToActions = () => {
   return (
     <div className="fancy-short-banner-one mt-170 lg-mt-120">
       <div className="container">
-        <div className="bg-wrapper position-relative" data-aos="fade-up">
+        <div className="bg-wrapper position-relative">
           <div className="shapes shape-one" />
           <div className="inner-wrapper">
             <div className="subscribe-area">

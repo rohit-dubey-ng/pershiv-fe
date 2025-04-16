@@ -32,8 +32,6 @@ const Features = () => {
         <div
           className="col-lg-3 col-sm-6"
           key={index}
-          data-aos="fade-up"
-          data-aos-delay={feature.delay}
         >
           <div className="card-style-seven mb-30 text-center position-relative tran3s ">
             <div className="icon d-flex align-items-end justify-content-center">

@@ -8,8 +8,6 @@ const Blog = () => {
         <div
           className="col-lg-4 col-sm-6"
           key={index}
-          data-aos="fade-up"
-          data-aos-delay={`${index * 100}`}
         >
           <article className="blog-meta-three mt-40 ">
             <figure className="post-img m0">
