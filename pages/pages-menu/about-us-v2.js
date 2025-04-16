@@ -82,7 +82,7 @@ const RealEstate = () => {
           <div className="row align-items-center">
             <div
               className="col-xxl-8 col-md-7 col-sm-9 m-auto"
-              data-aos="fade-up"
+              
             >
               <div className="title-style-five text-center pb-50 lg-pb-20">
                 <h2 className="main-title fw-500 tx-dark">
@@ -113,7 +113,7 @@ const RealEstate = () => {
         <div className="container">
           <div className="line-bg-wrapper position-relative zn2 pt-250 pb-180 lg-pt-120 lg-pb-80">
             <div className="row">
-              <div className="col-md-6" data-aos="fade-right">
+              <div className="col-md-6">
                 <div className="title-style-five">
                   <h2 className="main-title fw-500 tx-dark">
                     Check our client lovely words.
@@ -132,7 +132,7 @@ const RealEstate = () => {
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
                 <div
                   className="img-holder position-relative mt-25"
-                  data-aos="fade-left"
+                  
                 >
                   <Image
                     width={500}

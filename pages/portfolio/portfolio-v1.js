@@ -52,7 +52,7 @@ const PortfolioV1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-10 m-auto">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper">
                 <h1 className="hero-heading  tx-dark text-center">
                   Transforming Spaces with Preshiv
                   <span className="position-relative">
@@ -87,8 +87,8 @@ const PortfolioV1 = () => {
 
       <div className="container">
         <div
-          className="container aos-init aos-animate mt-50"
-          data-aos="fade-up"
+          className="container mt-50"
+          
         >
           <div className="top-banner text-center">
             <h2 className="tx-dark mb-20">Product Knowledge</h2>
@@ -99,8 +99,6 @@ const PortfolioV1 = () => {
             <div
               className="col-lg-4 col-sm-6"
               key={index}
-              data-aos="fade-up"
-              data-aos-delay={feature.delay}
             >
               <div
                 className={`why-pershiv-card tran3s position-relative mt-35`}
@@ -435,7 +433,7 @@ const PortfolioV1 = () => {
               <div className="col-sm-8">
                 <div
                   className="title-style-one text-center text-sm-start pb-40 lg-pb-20"
-                  data-aos="fade-right"
+                  
                 >
                   <h2 className="main-title fw-500 tx-dark m0">Our Blog</h2>
                 </div>
@@ -451,7 +449,7 @@ const PortfolioV1 = () => {
               <Link
                 href="/blog/blog-v2"
                 className="btn-twentyTwo fw-500 tran3s"
-                data-aos="fade-left"
+                
               >
                 Go to Blog
               </Link>

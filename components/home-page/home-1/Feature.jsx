@@ -114,7 +114,7 @@ const Feature = () => {
 
   return (
     <>
-      <div className="container aos-init aos-animate mt-50" data-aos="fade-up">
+      <div className="container mt-50" >
         <div className="top-banner text-center">
           <h2 className="tx-dark mb-20">Why Choose Pershiv</h2>
         </div>
@@ -124,8 +124,6 @@ const Feature = () => {
           <div
             className="col-lg-4 col-sm-6 choose-pershiv-card"
             key={index}
-            data-aos="fade-up"
-            data-aos-delay={feature.delay}
           >
             <div
               className={`why-pershiv-card tran3s position-relative mt-35`}
@@ -150,7 +148,6 @@ const Feature = () => {
         <Link
           href="/pages-menu/service-v1"
           className="btn-twentyTwo fw-500 tran3s"
-          data-aos="fade-left"
         >
           Know More
         </Link>

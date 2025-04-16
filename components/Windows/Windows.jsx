@@ -52,8 +52,7 @@ const Windows = () => {
               <div
                 className="col-lg-4 col-sm-6"
                 key={index}
-                data-aos="fade-up"
-                data-aos-delay={feature.delay}
+        
               >
                 <div
                   className={`tran3s position-relative mt-35 p-4 rounded h-75`}

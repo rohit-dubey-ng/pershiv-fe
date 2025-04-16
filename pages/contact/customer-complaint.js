@@ -10,21 +10,16 @@ const CustomerComplaint = () => {
       <DefaulHeader />
 
       <div className="hero-banner-five-CustomerComplaint text-center position-relative herMenu">
-      <div className="container">
-        <div className="row">
-          <div
-            className="col-xl-10 m-auto overlay"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-duration="1500"
-          >
-            <h1>Contact US</h1>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-10 m-auto overlay">
+              <h1>Contact US</h1>
+            </div>
           </div>
+          {/* End .row */}
         </div>
-        {/* End .row */}
+        {/* /.container */}
       </div>
-      {/* /.container */}
-    </div>
       <div className="fancy-feature-thirtyEight mt-140 lg-mt-100 position-relative  pb-70 lg-mt-120 lg-pt-70 lg-pb-50">
         <div className="container-fluid">
           {/* <div className="container">
@@ -32,10 +27,7 @@ const CustomerComplaint = () => {
               <h2 className="main-title fw-500 tx-dark m0">Contact US</h2>
             </div>
           </div> */}
-          <div
-            className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
-            data-aos="fade-up"
-          >
+          <div className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 ">
             <div className="container p-0">
               <div className="bg-wrapper zn2 bg-white position-relative">
                 <div className="row">
@@ -50,11 +42,13 @@ const CustomerComplaint = () => {
                           />
                           <div className="title-style-one">
                             <h2 className="main-title fw-500 tx-dark m0">
-                            Get in Touch with Pershiv.
+                              Get in Touch with Pershiv.
                             </h2>
                           </div>
                           <p className="fs-20 tx-dark pt-20 m0">
-                          Have questions or need assistance? We’re here to help! Reach out to us for inquiries, consultations, or any support related to our products and services.
+                            Have questions or need assistance? We’re here to
+                            help! Reach out to us for inquiries, consultations,
+                            or any support related to our products and services.
                           </p>
                         </div>
                       </div>
@@ -64,7 +58,6 @@ const CustomerComplaint = () => {
                         </div>
                         {/* /.form-style-two */}
                       </div>
-                     
                     </div>
                   </div>
                 </div>
@@ -85,7 +78,6 @@ const CustomerComplaint = () => {
                   className="lazy-img shapes shape-two"
                 />
               </div>
-               
             </div>
           </div>
         </div>

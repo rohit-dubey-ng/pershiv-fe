@@ -26,9 +26,7 @@ const BannerInfo = () => {
 
           <div
             className="col-xl-6 m-auto overlay"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-duration="1500"
+           
           >
             <div className="banner-info text-start mb-3">
               <p className="opacity-75 mb-15 lg-mb-20">Your home reflects your personality, and even the minute details matter. Windows play a major part of those details too, which is why at Pershiv we make sure that your windows provide you with more than just light and ventilation. We design windows that seamlessly blend with the interior aesthetics of your home, enhancing the overall look and appeal.

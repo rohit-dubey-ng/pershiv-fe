@@ -54,7 +54,7 @@ const DesignAgency = () => {
 			*/}
       <div
         className="feedback-section-twelve position-relative mt-110 sm-mt-80"
-        data-aos="fade-up"
+        
       >
         <div className="container">
           <div className="row">
@@ -167,7 +167,7 @@ const DesignAgency = () => {
 			*/}
       <div
         className="fancy-short-banner-fourteen mt-200 lg-mt-140 "
-        data-aos="fade-up"
+        
       >
         <div className="container">
           <div className="wrapper pb-90 lg-pb-40">

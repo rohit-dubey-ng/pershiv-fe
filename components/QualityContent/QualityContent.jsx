@@ -73,7 +73,7 @@ const QualityContent = () => {
               <Image
                 width={600}
                 height={400}
-                src="/images/assets/conditions.jpg"
+                src="/images/assets/Unmatched Efficiency.jpg"
                 alt="media"
                 className="lazy-img lg-mt-20 lg-mb-20 "
               />

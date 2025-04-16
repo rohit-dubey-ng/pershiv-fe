@@ -16,7 +16,7 @@ const OurValues = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-10 m-auto">
-              <div className="text-wrapper" data-aos="fade-up">
+              <div className="text-wrapper" >
                 <h1 className="hero-heading fw-500 tx-dark text-center">
                 About Pershiv 
                 </h1>
@@ -45,7 +45,7 @@ const OurValues = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7" data-aos="fade-right">
+            <div className="col-lg-7">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
                   More About us.
@@ -68,7 +68,7 @@ const OurValues = () => {
             </div>
 
             <div className="col-xl-6 col-lg-6 ms-auto">
-              <div className="ps-xxl-5" data-aos="fade-left">
+              <div className="ps-xxl-5">
                 <h6 className="mb-30">Establishment & Year.</h6>
                 <p>
                   Since 2006, we have dedicated ourselves to transforming homes
@@ -82,7 +82,7 @@ const OurValues = () => {
           </div>
           <div className="row">
             <div className="col-xl-6 col-lg-6 ms-auto">
-              <div className="ps-xxl-5" data-aos="fade-left">
+              <div className="ps-xxl-5">
                 <h6 className="mb-30">Working & Style.</h6>
                 <p>
                   At the core of our philosophy is a commitment to quality.
@@ -212,7 +212,7 @@ const OurValues = () => {
         </div>
       </div>
 
-      <div className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50" data-aos="fade-up">
+      <div className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50">
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
             <h2 className="main-title fw-500 tx-dark m0">Client Feedback</h2>

@@ -63,7 +63,6 @@ const DesignsStyles = () => {
         </div>
       </div> */}
 
-
       <Windows />
       {/* <BannerInfo/> */}
       {/* <DesignPalette /> */}
@@ -73,10 +72,7 @@ const DesignsStyles = () => {
 				Feedback Section Eleven
 			=====================================================
 			*/}
-      <div
-        className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
-        data-aos="fade-up"
-      >
+      <div className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50">
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
             <h2 className="main-title fw-500 tx-dark m0">Client Feedback</h2>
