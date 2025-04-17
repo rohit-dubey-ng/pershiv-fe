@@ -575,7 +575,7 @@ const Preshiv = () => {
             </div>
             {/* End .row */}
 
-            <Quote />
+            {/* <Quote /> */}
             {/* /.quote-wrapper */}
           </div>
           {/* /.line-bg-wrapper */}
