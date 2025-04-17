@@ -4,7 +4,7 @@ import DefaultFooter from "../../components/footer/DefaultFooter";
 import ACEGallery from "../../components/ACEGallery/ACEGallery";
 import MembershipBenefits from "../../components/MembershipBenefits/MembershipBenefits";
 import ContactForm from "../../components/home-page/home-1/ContactForm";
-import aceClubWelcome from "../../public/images/assets/ace-club-welcome.webp"
+// import aceClubWelcome from "../../public/images/assets/ace-club-welcome.webp"
 import Image from "next/image";
 
 const FenestaAceClub = () => {
@@ -40,7 +40,7 @@ const FenestaAceClub = () => {
             <h2 className="text-white mb-20">Welcome to the Fenesta Ace Club</h2>
           </div>
            <p className="text-white mb-50">Experience the remarkable partnership that seamlessly blends Fenesta's unparalleled expertise in Window Excellence with the imaginative genius of Architects</p>
-           <Image src={aceClubWelcome} alt="aceClubWelcome" />
+           {/* <Image src={aceClubWelcome} alt="aceClubWelcome" /> */}
         </div>
       </div>
       <div className="mt-140 lg-mt-100 position-relative  pb-70 lg-mt-120 lg-pt-70 lg-pb-50">

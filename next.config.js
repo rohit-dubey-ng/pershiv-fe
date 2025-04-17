@@ -5,7 +5,7 @@ const nextConfig = {
     ignoreDuringBuilds: true, // Disables ESLint during production builds
   },
   images: {
-    domains: ["pershiv-fe.netlify.app"], // Add the domains you need to fetch images from
+    unoptimized: true,
   },
 };
 
